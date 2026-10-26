@@ -1,14 +1,19 @@
 ---
-layout: page
+layout: project
 title: A panchromatic JWST view of WASP-107b
 description: Combining four JWST instruments into one transmission spectrum of a warm Neptune, while accounting for the spots and faculae on its active host star.
-img: assets/img/projects/wasp107b.png
+img: /assets/img/projects/wasp107b.png
 importance: 3
 category: current
 permalink: /projects/wasp107b/
+info: IIT Tirupati · with Dr. Vikram Khaire · July 2025 – present
+status: First-author paper in preparation
+figures:
+- image: /assets/img/projects/figure-placeholder.png
+  caption: 'Placeholder: MIRI LRS transmission spectrum.'
+- image: /assets/img/projects/figure-placeholder.png
+  caption: 'Placeholder: NIRSpec white-light curve.'
 ---
-
-**IIT Tirupati** · with Dr. Vikram Khaire · July 2025 – present · _First-author paper in preparation_
 
 ## The question
 
@@ -23,18 +28,6 @@ Its host is an **active K dwarf**, though, and unocculted starspots and bright f
 - **MIRI LRS:** a complete **Eureka!** reduction (Stages 1–6), benchmarked against the published MIRI spectrum of Dyrek et al. (2024).
 - **NIRSpec:** white-light transit curves for both detectors; spectroscopic light curves in progress.
 - **Retrievals:** Bayesian free retrievals with nested sampling across the four instrument modes, including stellar-contamination modelling for the spotted host star.
-
-<div class="row">
-  <div class="col-sm-6 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/projects/figure-placeholder.png" title="MIRI LRS transmission spectrum" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-6 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/projects/figure-placeholder.png" title="NIRSpec white-light curve" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-<div class="caption">
-  Placeholders. Left: my MIRI LRS transmission spectrum compared with Dyrek et al. (2024). Right: a NIRSpec white-light transit curve. The combined panchromatic spectrum and retrieval results will be added after publication.
-</div>
 
 ## Tools & methods
 

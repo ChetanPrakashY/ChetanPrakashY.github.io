@@ -1,0 +1,24 @@
+---
+layout: page
+---
+{% comment %}
+  Local layout for project pages, so they can be edited in Pages CMS without HTML:
+  `info` is the one-line affiliation/dates header, `figures` is a list of {image, caption}.
+{% endcomment %}
+{% if page.info %}
+  <p><strong>{{ page.info }}</strong>{% if page.status %} · <em>{{ page.status }}</em>{% endif %}</p>
+{% endif %}
+
+{{ content }}
+
+{% if page.figures and page.figures.size > 0 %}
+  <h2>Figures</h2>
+  {% for fig in page.figures %}
+    <div class="row justify-content-sm-center">
+      <div class="col-sm-10 mt-3">
+        {% include figure.liquid path=fig.image title=fig.caption class="img-fluid rounded z-depth-1" zoomable=true %}
+      </div>
+    </div>
+    {% if fig.caption %}<div class="caption">{{ fig.caption | markdownify | remove: '<p>' | remove: '</p>' }}</div>{% endif %}
+  {% endfor %}
+{% endif %}

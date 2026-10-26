@@ -1,14 +1,18 @@
 ---
-layout: page
+layout: project
 title: Can microlensing mimic tidal effects?
 description: Binary neutron-star waveforms under gravitational microlensing, and how easily lensing distortions could be confused with tidal deformability.
-img: assets/img/projects/gw-lensing.png
+img: /assets/img/projects/gw-lensing.png
 importance: 2
 category: earlier
 permalink: /projects/gw-lensing/
+info: IUCAA, Pune · with Dr. Anupreeta More · May – August 2024
+figures:
+- image: /assets/img/projects/figure-placeholder.png
+  caption: 'Placeholder: Microlensed vs unlensed signal.'
+- image: /assets/img/projects/figure-placeholder.png
+  caption: 'Placeholder: Tidal vs microlensing effects.'
 ---
-
-**IUCAA, Pune** · with Dr. Anupreeta More · May – August 2024
 
 ## The question
 
@@ -24,18 +28,6 @@ If the signal passes near a star or compact object in an intervening galaxy, **m
 - **Built an unlensed template bank** with tidal parameters, plus a set of microlensed test signals.
 - **Computed matches and fitting factors** with PyCBC, in an MPI-parallel code, to measure how well unlensed templates can absorb lensing distortions.
 - Presented the project at IUCAA in July 2024.
-
-<div class="row">
-  <div class="col-sm-6 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/projects/figure-placeholder.png" title="Microlensed vs unlensed signal" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-6 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/projects/figure-placeholder.png" title="Tidal vs microlensing effects" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-<div class="caption">
-  Placeholders. Left: a microlensed neutron-star signal against its unlensed counterpart. Right: tidal effects compared with microlensing effects on the same signal.
-</div>
 
 ## Tools & methods
 

@@ -1,0 +1,217 @@
+# Pages CMS configuration: https://pagescms.org/docs/configuration/
+# Lets you edit the site through forms at https://app.pagescms.org (log in with GitHub).
+# Every save is a commit; GitHub Actions then rebuilds the site in ~3 minutes.
+
+media:
+  - name: images
+    label: Images
+    input: assets/img
+    output: /assets/img
+    categories: [image]
+  - name: pdfs
+    label: PDFs
+    input: assets/pdf
+    output: /assets/pdf
+    extensions: [pdf]
+
+content:
+  # ---------------------------------------------------------------- About page
+  - name: about
+    label: About (home page)
+    type: file
+    path: _pages/about.md
+    format: yaml-frontmatter
+    fields:
+      - { name: layout, type: string, hidden: true, default: about }
+      - { name: title, type: string, hidden: true, default: about }
+      - { name: permalink, type: string, hidden: true, default: / }
+      - name: subtitle
+        label: Line under your name
+        type: string
+        description: Short line shown under your name. Links are written as <a href='https://...'>text</a>.
+      - name: profile
+        label: Photo & address
+        type: object
+        fields:
+          - { name: align, type: string, hidden: true, default: right }
+          - name: image
+            label: Profile photo
+            type: string
+            description: File name inside assets/img (upload it under Media → Images first), e.g. prof_pic.jpg
+          - { name: image_circular, label: Circular photo, type: boolean }
+          - name: more_info
+            label: Address (shown under the photo)
+            type: text
+            description: One line per <p>...</p>
+      - { name: selected_papers, label: Show selected papers, type: boolean }
+      - { name: social, label: Show email/GitHub icons, type: boolean }
+      - name: announcements
+        label: News box
+        type: object
+        fields:
+          - { name: enabled, label: Show news, type: boolean }
+          - { name: scrollable, type: boolean, hidden: true, default: true }
+          - { name: limit, label: How many news items, type: number }
+      - name: latest_posts
+        type: object
+        hidden: true
+        fields:
+          - { name: enabled, type: boolean, default: false }
+      - name: body
+        label: Biography
+        type: rich-text
+
+  # ---------------------------------------------------------------- News
+  - name: news
+    label: News
+    type: collection
+    path: _news
+    filename: "{year}-{month}-{day}-{fields.slug}.md"
+    format: yaml-frontmatter
+    view:
+      primary: date
+      fields: [date, body]
+      sort: [date]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - { name: layout, type: string, hidden: true, default: post }
+      - name: date
+        label: Date
+        type: date
+        options: { format: yyyy-MM-dd }
+      - { name: inline, type: boolean, hidden: true, default: true }
+      - { name: related_posts, type: boolean, hidden: true, default: false }
+      - name: slug
+        label: Short name for the file
+        type: string
+        description: A few words with dashes, e.g. new-preprint. Only used for the file name.
+        hidden: false
+      - name: body
+        label: News text
+        type: rich-text
+
+  # ---------------------------------------------------------------- Projects
+  - name: projects
+    label: Projects
+    type: collection
+    path: _projects
+    filename: "{fields.importance}_{primary}.md"
+    format: yaml-frontmatter
+    view:
+      primary: title
+      fields: [title, category, importance]
+      sort: [category, importance]
+    fields:
+      - { name: layout, type: string, hidden: true, default: project }
+      - { name: title, label: Title, type: string, required: true }
+      - name: description
+        label: Card summary
+        type: text
+        description: One or two sentences shown on the project card.
+      - name: info
+        label: Where / who / when
+        type: string
+        description: e.g. "SISSA, Trieste · with Prof. Enrico Barausse · May 2026 – present"
+      - name: status
+        label: Status
+        type: string
+        description: Optional, e.g. "Paper in preparation" or "Published in PRD"
+      - name: category
+        label: Section
+        type: select
+        options:
+          values: [current, earlier, notes]
+      - name: importance
+        label: Order within section
+        type: number
+        description: 1 appears first.
+      - name: img
+        label: Card image
+        type: image
+        options: { media: images, path: assets/img/projects }
+      - name: permalink
+        label: Web address
+        type: string
+        description: e.g. /projects/my-project/ (keep the slashes)
+      - name: figures
+        label: Figures
+        type: object
+        list: true
+        fields:
+          - name: image
+            label: Image
+            type: image
+            options: { media: images, path: assets/img/projects }
+          - name: caption
+            label: Caption
+            type: text
+      - name: body
+        label: Page text
+        type: rich-text
+        description: Pages with equations (hyperbolic encounters, PN notes) — switch to source mode before editing so the $$ maths is kept intact.
+
+  # ---------------------------------------------------------------- Activities
+  - name: activities
+    label: Activities
+    type: file
+    path: _data/activities.yml
+    format: yaml
+    fields:
+      - name: sections
+        label: Activity sections
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: role, label: Role, type: string }
+          - { name: dates, label: Dates, type: string }
+          - { name: text, label: Text, type: rich-text }
+          - name: photos
+            label: Photos
+            type: object
+            list: true
+            fields:
+              - name: image
+                label: Photo
+                type: image
+                options: { media: images, path: assets/img/activities }
+              - { name: caption, label: Caption, type: string }
+      - name: recognition
+        label: Recognition & certificates
+        type: object
+        list: true
+        fields:
+          - { name: date, label: Date, type: string }
+          - { name: title, label: What, type: string }
+
+  # ---------------------------------------------------------------- Papers
+  - name: papers
+    label: Papers (BibTeX)
+    type: file
+    path: _bibliography/papers.bib
+    format: code
+
+  # ---------------------------------------------------------------- CV
+  - name: cv
+    label: CV
+    type: file
+    path: _data/cv.yml
+    format: code
+
+  # ---------------------------------------------------------------- Contact links
+  - name: socials
+    label: Email & social links
+    type: file
+    path: _data/socials.yml
+    format: yaml
+    fields:
+      - { name: email, label: Email, type: string }
+      - { name: github_username, label: GitHub username, type: string }
+      - { name: orcid_id, label: ORCID iD, type: string, description: e.g. 0000-0002-1825-0097 }
+      - { name: scholar_userid, label: Google Scholar user ID, type: string, description: The code after user= in your Scholar profile URL }
+      - { name: arxiv_id, label: arXiv author ID, type: string }
+      - { name: inspirehep_id, label: INSPIRE-HEP author ID, type: string }
+      - { name: linkedin_username, label: LinkedIn username, type: string }
+      - { name: cv_pdf, label: CV PDF, type: file, options: { media: pdfs } }

@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: project
 title: Post-Newtonian notes
 description: Notes on the 1.5PN quasi-Keplerian description of hyperbolic orbits with spin–orbit coupling.
-img: assets/img/projects/pn-notes.png
+img: /assets/img/projects/pn-notes.png
 importance: 1
 category: notes
 permalink: /projects/pn-notes/

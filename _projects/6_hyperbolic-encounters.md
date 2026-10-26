@@ -1,14 +1,13 @@
 ---
-layout: page
+layout: project
 title: Spinning hyperbolic encounters
 description: Extending the post-Newtonian description of unbound compact-object encounters to include spin–orbit effects, with an eye on gravitational-wave memory in PTAs.
-img: assets/img/projects/hyperbolic-encounters.png
+img: /assets/img/projects/hyperbolic-encounters.png
 importance: 1
 category: earlier
 permalink: /projects/hyperbolic-encounters/
+info: Tata Institute of Fundamental Research, Mumbai · with Prof. A. Gopakumar · May – September 2025
 ---
-
-**Tata Institute of Fundamental Research, Mumbai** · with Prof. A. Gopakumar · May – September 2025
 
 ## The question
 

@@ -1,14 +1,17 @@
 ---
-layout: page
+layout: project
 title: Waveform systematics for precessing binaries
 description: How much do state-of-the-art models of spin-precessing black-hole binaries disagree with numerical relativity? Master's thesis at SISSA.
-img: assets/img/projects/precessing-waveforms.png
+img: /assets/img/projects/precessing-waveforms.png
 importance: 1
 category: current
 permalink: /projects/precessing-waveforms/
+info: SISSA, Trieste · Master's thesis with Prof. Enrico Barausse · May 2026 – present
+status: Paper in preparation
+figures:
+- image: /assets/img/projects/figure-placeholder.png
+  caption: Placeholder. This will show mismatch distributions of IMRPhenomXPHM and IMRPhenomXO4a against NRSur7dq4 across total masses.
 ---
-
-**SISSA, Trieste** · Master's thesis with Prof. Enrico Barausse · May 2026 – present · _Paper in preparation_
 
 ## The question
 
@@ -24,15 +27,6 @@ When the black holes' spins are tilted relative to the orbit, the orbital plane 
 - **Scanning parameter space:** 1024 random two-spin configurations across several total masses and inclinations, run in parallel.
 - **Building an independent pipeline with Bilby and PyCBC** that includes the detector response, as a cross-check.
 - **Validating everything:** time- and frequency-domain waveform comparisons, match landscapes over the precession angle, and per-configuration comparisons of the two models.
-
-<div class="row justify-content-sm-center">
-  <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/projects/figure-placeholder.png" title="Mismatch distributions" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-<div class="caption">
-  Placeholder. This will show mismatch distributions of IMRPhenomXPHM and IMRPhenomXO4a against NRSur7dq4 across total masses.
-</div>
 
 ## Tools & methods
 

@@ -1,14 +1,13 @@
 ---
-layout: page
+layout: project
 title: Galaxy clustering
 description: Modelling the projected two-point correlation function of galaxies. A summer group project at TIFR.
-img: assets/img/projects/galaxy-clustering.png
+img: /assets/img/projects/galaxy-clustering.png
 importance: 3
 category: earlier
 permalink: /projects/galaxy-clustering/
+info: Tata Institute of Fundamental Research, Mumbai · Group project with Dr. Shadab Alam · May – August 2024
 ---
-
-**Tata Institute of Fundamental Research, Mumbai** · Group project with Dr. Shadab Alam · May – August 2024
 
 ## The question
 

@@ -1,14 +1,17 @@
 ---
-layout: page
+layout: project
 title: Lensing of nanohertz gravitational waves
 description: What happens to the Hellings–Downs curve when a pulsar-timing-array signal is gravitationally lensed by a galaxy in the wave-optics regime?
-img: assets/img/projects/lensed-hellings-downs.png
+img: /assets/img/projects/lensed-hellings-downs.png
 importance: 4
 category: current
 permalink: /projects/lensed-hellings-downs/
+info: 2026 – present
+status: Exploratory project
+figures:
+- image: /assets/img/projects/figure-placeholder.png
+  caption: Placeholder. This will show the pulsar-pair correlation for a lensed source at several frequencies, compared with the unlensed Hellings–Downs curve.
 ---
-
-**2026 – present** · _Exploratory project_
 
 ## The question
 
@@ -22,15 +25,6 @@ At nanohertz frequencies the gravitational wavelength is comparable to the Schwa
 - **Singular isothermal sphere lenses:** using precomputed amplification-factor tables from the **GWLENS** package for a realistic galaxy-scale lens.
 - **Lensed Hellings–Downs curves:** computing how the pulsar-pair correlation changes with each pulsar's position relative to the lens and with the dimensionless frequency, and checking that the result reduces to the standard curve without lensing.
 - **Numerical diagnostics:** mapping where the amplification-factor grid can be trusted.
-
-<div class="row justify-content-sm-center">
-  <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/projects/figure-placeholder.png" title="Lensed Hellings–Downs curves" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-<div class="caption">
-  Placeholder. This will show the pulsar-pair correlation for a lensed source at several frequencies, compared with the unlensed Hellings–Downs curve.
-</div>
 
 ## Tools & methods
 
