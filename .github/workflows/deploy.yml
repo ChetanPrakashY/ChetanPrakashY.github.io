@@ -1,8 +1,10 @@
 name: Deploy site
 
 # Automatic deploys are switched OFF while the site is private.
-# To go live: make the repo public, restore the push trigger below
-# (uncomment the block), then enable GitHub Pages on the gh-pages branch.
+# To go live: rename the repo back to ChetanPrakashY.github.io, make it public,
+# restore the push trigger below
+# (uncomment the block), run it once, then set GitHub Pages to the gh-pages branch.
+# (While the repo is named ChetanPrakashY.github.io, GitHub forces Pages on.)
 on:
 #  push:
 #    branches:
