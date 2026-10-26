@@ -1,0 +1,163 @@
+cv:
+  name: Chetan Prakash
+  label: Integrated BS-MS student in Physics
+  email: cprakash@sissa.it
+  location: Trieste, Italy
+  image: ""
+  summary: Gravitational-wave astrophysics (waveform modelling, pulsar timing arrays) and exoplanet atmospheres with JWST.
+
+  social_networks:
+    - network: GitHub
+      username: ChetanPrakashY
+
+  sections:
+    Education:
+      - institution: Indian Institute of Science Education and Research (IISER) Berhampur
+        location: Berhampur, Odisha, India
+        url: https://www.iiserbpr.ac.in/
+        area: Physics (major)
+        studyType: Integrated Bachelor's and Master's (BS-MS)
+        start_date: 2022-08
+        end_date: 2027-07
+        highlights:
+          - Master's thesis at SISSA, Trieste, Italy (advisor Prof. Enrico Barausse), from May 2026.
+
+    Experience:
+      - company: SISSA – Scuola Internazionale Superiore di Studi Avanzati
+        position: Master's thesis student (advisor Prof. Enrico Barausse)
+        location: Trieste, Italy
+        start_date: 2026-05
+        end_date: present
+        highlights:
+          - Waveform systematics between spin-precessing gravitational-wave approximants.
+          - Gravitational-wave waveform modelling.
+
+      - company: Kumamoto University
+        position: Research collaboration (with Prof. Takahashi)
+        location: Kumamoto, Japan
+        start_date: 2026-01
+        end_date: present
+        highlights:
+          - Sky localization of individual gravitational-wave sources with pulsar timing arrays.
+
+      - company: Indian Institute of Technology Tirupati
+        position: Research intern (advisor Dr. Vikram Khaire)
+        location: Tirupati, India
+        start_date: 2025-07
+        end_date: present
+        highlights:
+          - Reducing JWST exoplanet spectroscopy data to transmission spectra.
+          - Free-retrieval analysis of the warm Neptune WASP-107b, including the heterogeneous surface of its active K-dwarf host.
+          - Searching for biosignatures with transit spectroscopy.
+
+      - company: Tata Institute of Fundamental Research (TIFR)
+        position: Research intern (advisor Prof. A. Gopakumar)
+        location: Mumbai, India
+        start_date: 2025-05
+        end_date: 2025-09
+        highlights:
+          - Incorporated spins into the post-Newtonian Keplerian-type parametrization of hyperbolic encounters.
+          - Worked towards a model for linear gravitational-wave bursts with memory in pulsar timing array analyses.
+
+      - company: Inter-University Centre for Astronomy and Astrophysics (IUCAA)
+        position: Research intern (advisor Dr. Anupreeta More)
+        location: Pune, India
+        start_date: 2024-05
+        end_date: 2024-08
+        highlights:
+          - Tidal deformability of coalescing neutron stars under gravitational microlensing.
+          - Tested waveform fitting factors during parameter estimation.
+
+      - company: Tata Institute of Fundamental Research (TIFR)
+        position: Group project intern (advisor Dr. Shadab Alam)
+        location: Mumbai, India
+        start_date: 2024-05
+        end_date: 2024-08
+        highlights:
+          - Galaxy clustering with the projected correlation function.
+
+    Publications:
+      - title: Waveform systematics of spin-precessing gravitational-wave approximants
+        authors:
+          - Chetan Prakash
+          - Enrico Barausse
+        publisher: In preparation
+        releaseDate: 2026
+
+      - title: "A panchromatic free-retrieval analysis of the warm Neptune WASP-107b: characterising the heterogeneous surface of its active K-dwarf host"
+        authors:
+          - Chetan Prakash
+          - Vikram Khaire
+        publisher: In preparation
+        releaseDate: 2026
+
+      - title: Source localization with pulsar timing arrays
+        authors:
+          - Chetan Prakash
+          - Takahashi
+        publisher: In preparation
+        releaseDate: 2026
+
+    Volunteer:
+      - company: Naxatra, Astronomy & Cosmology Club, IISER Berhampur
+        position: Coordinator
+        location: Berhampur, India
+        start_date: 2024-06
+        end_date: 2025-09
+        highlights:
+          - Organised telescope demonstrations, talks and outreach events.
+          - Led an X-ray astronomy data-analysis workshop attended by 330 students from across India.
+
+      - company: Lovelace Society, IISER Berhampur
+        position: Co-coordinator
+        location: Berhampur, India
+        start_date: 2024-01
+        end_date: 2025-06
+        highlights:
+          - Ran hackathons and weekly programming workshops.
+
+      - company: Episteme, IISER Berhampur science magazine
+        position: Writer and web team member
+        location: Berhampur, India
+        highlights:
+          - Wrote articles and helped manage the magazine website.
+
+    Skills:
+      - name: Programming
+        icon: fa-solid fa-code
+        keywords: "Python, Mathematica, MATLAB, SQL, Linux, LaTeX, HTML"
+      - name: Gravitational waves
+        icon: fa-solid fa-wave-square
+        keywords: "PyCBC, Bilby, pyCWB, LALSuite, GWOSC"
+      - name: Astronomy & data
+        icon: fa-solid fa-satellite
+        keywords: "Astropy, NumPy, SciPy, pandas, Matplotlib, fitsio, pyccl, JWST transmission spectroscopy"
+      - name: Other
+        icon: fa-solid fa-microchip
+        keywords: "Basic machine learning, web development, Qiskit, Arduino"
+
+    Languages:
+      - name: English
+      - name: Hindi
+
+    Certificates:
+      - name: Certificate of Appreciation for Student Mentorship and Guidance
+        date: 2025-11
+        issuer: IISER Berhampur
+      - name: Certificate of Appreciation for Scientific Outreach
+        date: 2025-10
+        issuer: STREAM, IISER Berhampur
+      - name: Certificate of Recognition, Coding Club coordinatorship
+        date: 2025-08
+        issuer: IISER Berhampur
+      - name: International Astronomical Search Collaboration
+        date: 2023-08
+        issuer: IASC
+      - name: Introduction to Quantum Computing
+        date: 2021-05
+        issuer: The Coding School
+
+    Interests:
+      - name: Outside physics
+        icon: fa-solid fa-heart
+        keywords: "Lawn tennis, basketball, trekking, painting, reading and writing"
