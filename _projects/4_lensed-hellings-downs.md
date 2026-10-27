@@ -18,7 +18,7 @@ figures:
 - image: /assets/img/projects/pta-lensing-sis-w.png
   caption: Dimensionless frequency parameter space for the singular isothermal sphere
     (SIS) lens model. Owing to the strong dependence *w* ∝ *σ*<sub>v</sub><sup>4</sup>,
-    relatively modest increases in velocity dispersion significantly enhance wave-optics
+    relatively modest increases in velocity dispersion significantly suppress wave-optics
     effects and shift the system toward the geometric-optics regime.
   after_point: 2
 ---
