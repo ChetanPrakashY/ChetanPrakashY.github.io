@@ -12,11 +12,13 @@ img: /assets/img/projects/precessing-waveforms.png
 permalink: /projects/precessing-waveforms/
 figures:
 - image: /assets/img/projects/mismatch-60msun.png
+  after_point: 1
   caption: 'Mismatch between the precessing waveform models IMRPhenomXPHM and IMRPhenomXO4a
     and the numerical-relativity surrogate NRSur7dq4, for binaries with total mass
     60 M☉. Histograms: my reproduction. Points: the published values from Fig. 11
     of Thompson et al. (2024).'
 - image: /assets/img/projects/spin-bias-xphm.png
+  after_point: 2
   caption: Posterior for the primary spin magnitude a1 from a zero-noise injection
     of a precessing binary black hole (NRSur7dq4, mass ratio 4, total mass 80 M☉,
     both spins 0.8 tilted 80 degrees, network SNR 25, LIGO-Virgo) recovered with IMRPhenomXPHM
@@ -80,9 +82,3 @@ Papers I've been reading for this project.
 - Harry & Lundgren (2021), *Failure of the Fisher matrix when including tidal terms: Considering construction of template banks of tidally deformed binary neutron stars*
 - Ajith et al. (2014), *Effectual template bank for the detection of gravitational waves from inspiralling compact binaries with generic spins*
 - Cutler & Flanagan (1994), *Gravitational Waves from Merging Compact Binaries: How Accurately Can One Extract the Binary's Parameters from the Inspiral Waveform?*
-
-**Foundations & detectors**
-
-- Schutz (1984), *Gravitational waves on the back of an envelope*
-- Drever et al. (1983), *Laser phase and frequency stabilization using an optical resonator*
-- Kogelnik & Li (1966), *Laser Beams and Resonators*

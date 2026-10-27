@@ -3,17 +3,39 @@ layout: page
 ---
 {% comment %}
   Local layout for project pages, so they can be edited in Pages CMS without HTML:
-  `info` is the one-line affiliation/dates header, `figures` is a list of {image, caption}.
+  `info` is the one-line affiliation/dates header, `figures` is a list of {image, caption, after_point}.
+  A figure with `after_point: N` is shown inside the N-th bullet point of the page
+  (counting bullet points from the top); figures without it go in a "Figures" section at the end.
 {% endcomment %}
 {% if page.info %}
   <p><strong>{{ page.info }}</strong>{% if page.status %} · <em>{{ page.status }}</em>{% endif %}</p>
 {% endif %}
 
-{{ content }}
+{% assign inline_figs = page.figures | where_exp: 'f', 'f.after_point != nil and f.after_point != ""' %}
+{% if inline_figs.size > 0 %}
+  {% assign parts = content | split: '</li>' %}
+  {% for part in parts %}
+    {{ part }}
+    {% unless forloop.last %}
+      {% for fig in inline_figs %}
+        {% if fig.after_point == forloop.parentloop.index %}
+          <div class="mt-3 mb-4">
+            {% include figure.liquid path=fig.image title=fig.caption class="img-fluid rounded z-depth-1" zoomable=true %}
+            {% if fig.caption %}<div class="caption">{{ fig.caption | markdownify | remove: '<p>' | remove: '</p>' }}</div>{% endif %}
+          </div>
+        {% endif %}
+      {% endfor %}
+      </li>
+    {% endunless %}
+  {% endfor %}
+{% else %}
+  {{ content }}
+{% endif %}
 
-{% if page.figures and page.figures.size > 0 %}
+{% assign end_figs = page.figures | where_exp: 'f', 'f.after_point == nil or f.after_point == ""' %}
+{% if end_figs.size > 0 %}
   <h2>Figures</h2>
-  {% for fig in page.figures %}
+  {% for fig in end_figs %}
     <div class="row justify-content-sm-center">
       <div class="col-sm-10 mt-3">
         {% include figure.liquid path=fig.image title=fig.caption class="img-fluid rounded z-depth-1" zoomable=true %}

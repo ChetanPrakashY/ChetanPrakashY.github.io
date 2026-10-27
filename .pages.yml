@@ -147,6 +147,10 @@ content:
           - name: caption
             label: Caption
             type: text
+          - name: after_point
+            label: Show after bullet point no.
+            type: number
+            description: Counting bullet points from the top of the page (1 = first). Leave empty to put the figure in a Figures section at the end.
       - name: body
         label: Page text
         type: rich-text
