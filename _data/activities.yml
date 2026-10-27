@@ -1,12 +1,16 @@
-# Edited in Pages CMS ("Activities"). Rendered by _pages/activities.md.
 sections:
   - title: Naxatra · Astronomy & Cosmology Club
     role: Coordinator
     dates: June 2024 – September 2025
-    text: |
-      As coordinator of Naxatra, IISER Berhampur's astronomy and cosmology club, I organised telescope demonstrations, talks and outreach events for the campus community.
+    text: >-
+      As coordinator of Naxatra, IISER Berhampur's astronomy and cosmology club,
+      I organised telescope demonstrations, talks and outreach events for the
+      campus community.
 
-      The largest event was an **X-ray astronomy data-analysis workshop** that I led. It drew **330 students from across India** and brought in invited speakers from the field.
+
+      The largest event was an **X-ray astronomy data-analysis workshop** that I
+      led. It drew **330 students from across India** and brought in invited
+      speakers from the field.
     photos:
       - image: /assets/img/activities/xray-workshop.png
         caption: X-ray astronomy data-analysis workshop
@@ -14,26 +18,33 @@ sections:
         caption: Telescope demonstration on campus
       - image: /assets/img/activities/naxatra-talk.png
         caption: A Naxatra talk
-
   - title: Lovelace Society · Tech Society
     role: Co-coordinator
     dates: January 2024 – June 2025
-    text: |
-      The Lovelace Society promotes coding and shows how programming is used across the sciences. I helped run hackathons and weekly programming workshops for students across disciplines.
+    text: The Lovelace Society promotes coding and shows how programming is used
+      across the sciences. I helped run hackathons and weekly programming
+      workshops for students across disciplines.
     photos:
       - image: /assets/img/activities/lovelace-hackathon.png
         caption: A Lovelace Society hackathon
       - image: /assets/img/activities/lovelace-workshop.png
         caption: One of the weekly workshops
-
   - title: Science communication & outreach
-    role: ""
-    dates: ""
-    text: |
-      - **STREAM outreach programme.** I taught school students the basics of astronomy and how telescopes work, and designed interactive activities about space science.
-      - **Episteme science magazine.** I wrote articles for IISER Berhampur's student science magazine and worked with the technical team that runs its website.
-      - **Invenio science fest.** I organised events for IISER Berhampur's annual science fest.
-      - **Mentoring.** I mentor undergraduates as they find their way through college life and into a field of interest.
+    text: >+
+      - **STREAM outreach programme.** I taught school students the basics of
+      astronomy and how telescopes work, and designed interactive activities
+      about space science.
+
+      - **Episteme science magazine.** I wrote articles for IISER Berhampur's
+      student science magazine and worked with the technical team that runs its
+      website.
+
+      - **Invenio science fest.** I organised events for IISER Berhampur's
+      annual science fest.
+
+      - **Mentoring.** I mentor undergraduates as they find their way through
+      college life and into a field of interest.
+
     photos:
       - image: /assets/img/activities/stream-outreach.png
         caption: STREAM outreach with school students
@@ -41,21 +52,19 @@ sections:
         caption: The Episteme magazine
       - image: /assets/img/activities/invenio.png
         caption: The Invenio science fest
-
   - title: Beyond physics
-    role: ""
-    dates: ""
-    text: |
-      I play lawn tennis and represented IISER Berhampur at the Inter-IISER Sports Meet (December 2024). I also enjoy basketball, trekking, painting, reading and writing.
+    text: I play lawn tennis and represented IISER Berhampur at the Inter-IISER
+      Sports Meet (December 2024). I also enjoy basketball, trekking, painting,
+      reading and writing.
     photos:
       - image: /assets/img/activities/tennis.png
         caption: Inter-IISER Sports Meet
       - image: /assets/img/activities/tedx.png
         caption: TEDxIISERBPR
-
 recognition:
   - date: Nov 2025
-    title: Certificate of Appreciation for Student Mentorship and Guidance, IISER Berhampur
+    title: Certificate of Appreciation for Student Mentorship and Guidance, IISER
+      Berhampur
   - date: Oct 2025
     title: Certificate of Appreciation for Scientific Outreach, STREAM
   - date: Aug 2025
