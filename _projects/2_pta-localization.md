@@ -15,6 +15,9 @@ figures:
   - image: /assets/img/projects/pta-kt-fig3-reproduction.png
     caption: "My reproduction of Fig. 3 of Kato & Takahashi (2026). Each map shows the 68% sky-localisation area Ω (deg²) of a single continuous-wave source, as a function of its sky position, for a simulated array of 87 pulsars."
     after_point: 1
+  - image: /assets/img/projects/pta-reproduction-vs-released.png
+    caption: "Pixel-by-pixel check of my reproduction: my 68% sky-localisation areas (deg²) against the values in the authors' public data release. Each point is one sky position; the dashed line marks perfect agreement."
+    after_point: 1
 ---
 ## The question
 
