@@ -10,10 +10,17 @@ importance: 4
 img: /assets/img/projects/lensed-hellings-downs.png
 permalink: /projects/pta-lensing/
 figures:
-  - image: /assets/img/projects/figure-placeholder.png
-    caption: Placeholder. This will show the pulsar-pair correlation for a lensed
-      source at several frequencies, compared with the unlensed Hellings–Downs
-      curve.
+- image: /assets/img/projects/pta-lensing-point-lens-w.png
+  caption: Dimensionless frequency parameter space for the point-mass lens. Since
+    *w* ∝ *M*<sub>L,z</sub> *f*, larger lens masses and higher gravitational-wave
+    frequencies drive the system toward geometric optics (*w* ≫ 1).
+  after_point: 1
+- image: /assets/img/projects/pta-lensing-sis-w.png
+  caption: Dimensionless frequency parameter space for the singular isothermal sphere
+    (SIS) lens model. Owing to the strong dependence *w* ∝ *σ*<sub>v</sub><sup>4</sup>,
+    relatively modest increases in velocity dispersion significantly enhance wave-optics
+    effects and shift the system toward the geometric-optics regime.
+  after_point: 2
 ---
 ## The question
 
