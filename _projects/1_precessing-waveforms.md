@@ -33,9 +33,48 @@ When the black holes' spins are tilted relative to the orbit, the orbital plane 
 
 Python · LALSuite / LALSimulation · Bilby · PyCBC · NumPy / SciPy · SNR-weighted mismatch · Fisher Matrix · Bayesian Inference 
 
-## Background reading
+## Reading list
 
+Papers I've been reading for this project.
+
+**Precessing waveform models**
+
+- Morras et al. (2026), *Post-Newtonian inspiral waveform model for eccentric precessing binaries with higher-order modes and matter effects*
+- Hamilton et al. (2025), *PhenomXPNR: An improved gravitational wave model linking precessing inspirals and NR-calibrated merger-ringdown*
 - Thompson et al. (2024), *PhenomXO4a: a phenomenological gravitational-wave model for precessing black-hole binaries with higher multipoles and asymmetries*
+- Ramos-Buades et al. (2023), *SEOBNRv5PHM: Next generation of accurate and efficient multipolar precessing-spin effective-one-body waveforms for binary black holes*
+- Yu et al. (2023), *Accurate and Efficient Waveform Model for Precessing Binary Black Holes*
+- Estellés et al. (2022), *New twists in compact binary waveform modelling: a fast time domain model for precession*
+- Hamilton et al. (2021), *The final twist: A model of gravitational waves from precessing black-hole binaries through merger and ringdown*
 - Pratten et al. (2021), *Computationally efficient models for the dominant and sub-dominant harmonic modes of precessing binary black holes*
-- Harry, Privitera, Bohé & Buonanno (2016), *Searching for gravitational waves from compact binaries with precessing spins*
+- Isoyama et al. (2021), *Post-Newtonian templates for gravitational waves from compact binary inspirals*
+- Moore et al. (2018), *A Fourier Domain Waveform for Non-Spinning Binaries with Arbitrary Eccentricity*
+- Chatziioannou et al. (2017), *Constructing Gravitational Waves from Generic Spin-Precessing Compact Binary Inspirals*
 
+**Waveform systematics & parameter-estimation biases**
+
+- Copparoni et al. (2026), *When vacuum breaks: a self-consistency test for astrophysical environments in extreme mass ratio inspirals*
+- Chandramouli et al. (2025), *Systematic biases due to waveform mismodeling in parametrized post-Einsteinian tests of general relativity: The impact of neglecting spin precession and higher modes*
+- Kumar et al. (2025), *Accounting for the Known Unknowns: A Parametric Framework to Incorporate Systematic Waveform Errors in Gravitational-Wave Parameter Estimation*
+- Mezzasoma et al. (2025), *Uncertainty-aware waveform modeling for high signal-to-noise ratio gravitational-wave inference*
+- Kapil et al. (2024), *Systematic bias from waveform modeling for binary black hole populations in next-generation gravitational wave detectors*
+- Owen et al. (2023), *Waveform accuracy and systematic uncertainties in current gravitational wave observations*
+- Harry et al. (2016), *Searching for Gravitational Waves from Compact Binaries with Precessing Spins*
+- Moore & Gair (2014), *Novel Method for Incorporating Model Uncertainties into Gravitational Wave Parameter Estimates*
+- Cutler & Vallisneri (2007), *LISA detections of massive black hole inspirals: parameter extraction errors due to inaccurate template waveforms*
+
+**Fisher matrix & forecasting**
+
+- Dupletsa et al. (2025), *Validating Prior-informed Fisher-matrix Analyses against GWTC Data*
+- García-Quirós et al. (2025), *GPU-accelerated LISA parameter estimation with full time domain response*
+- Dupletsa et al. (2023), *GWFish: A simulation software to evaluate parameter-estimation capabilities of gravitational-wave detector networks*
+- Iacovelli et al. (2022), *GWFAST: a Fisher information matrix Python code for third-generation gravitational-wave detectors*
+- Harry & Lundgren (2021), *Failure of the Fisher matrix when including tidal terms: Considering construction of template banks of tidally deformed binary neutron stars*
+- Ajith et al. (2014), *Effectual template bank for the detection of gravitational waves from inspiralling compact binaries with generic spins*
+- Cutler & Flanagan (1994), *Gravitational Waves from Merging Compact Binaries: How Accurately Can One Extract the Binary's Parameters from the Inspiral Waveform?*
+
+**Foundations & detectors**
+
+- Schutz (1984), *Gravitational waves on the back of an envelope*
+- Drever et al. (1983), *Laser phase and frequency stabilization using an optical resonator*
+- Kogelnik & Li (1966), *Laser Beams and Resonators*
