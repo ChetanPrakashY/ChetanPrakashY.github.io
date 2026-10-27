@@ -1,39 +1,41 @@
 ---
 layout: project
 title: Waveform systematics for precessing binaries
-description: How much do state-of-the-art models of spin-precessing black-hole binaries disagree with numerical relativity? Master's thesis at SISSA.
-img: /assets/img/projects/precessing-waveforms.png
-importance: 1
-category: current
-permalink: /projects/precessing-waveforms/
-info: SISSA, Trieste · Master's thesis with Prof. Enrico Barausse · May 2026 – present
+description: How much do state-of-the-art models of spin-precessing black-hole
+  binaries disagree with numerical relativity? Master's thesis at SISSA.
+info: SISSA, Trieste · Master's thesis with Prof. Enrico Barausse · May 2026 –
+  present
 status: Paper in preparation
+category: current
+importance: 1
+img: /assets/img/projects/precessing-waveforms.png
+permalink: /projects/precessing-waveforms/
 figures:
-- image: /assets/img/projects/figure-placeholder.png
-  caption: Placeholder. This will show mismatch distributions of IMRPhenomXPHM and IMRPhenomXO4a against NRSur7dq4 across total masses.
+  - image: /assets/img/projects/figure-placeholder.png
+    caption: Figure shows mismatch distributions of IMRPhenomXPHM and IMRPhenomXO4a
+      against NRSur7dq4 across total masses. Independently reproducting Fig. 11
+      of Thompson et al. (2024)
+  - {}
 ---
-
 ## The question
 
 Everything we learn from a gravitational-wave detection, such as the masses and spins of the black holes, comes from comparing the data with **waveform models**. Where those models are wrong, the inferred parameters can be biased.
 
-When the black holes' spins are tilted relative to the orbit, the orbital plane **precesses**. This modulates the signal and is one of the hardest effects to model, especially together with higher harmonics. My thesis asks how large the errors of today's fast precessing models are, where in parameter space they concentrate, and what that means for parameter estimation.
+When the black holes' spins are tilted relative to the orbit, the orbital plane **precesses**. This modulates the signal and is one of the hardest effects to model, especially together with higher harmonics. My thesis asks how large the errors of today's fast precessing models are, where in parameter space they concentrate, and if we can mitigate those biases between those models .
 
-## What I'm doing
+## Progress
 
-- **Comparing two state-of-the-art precessing models**, IMRPhenomXPHM and the newer IMRPhenomXO4a, against the numerical-relativity surrogate NRSur7dq4, starting by reproducing the mismatch study of Thompson et al. (2024).
-- **Writing a match code from scratch:** a noise-weighted inner product with analytic maximisation over orbital phase and polarisation, maximisation over time shift via inverse FFT, and a grid search over the template's in-plane spin orientation.
-- **Using the SNR-weighted precessing mismatch** of Harry et al. (2016), averaged over reference phases, with the Advanced LIGO design sensitivity curve.
-- **Scanning parameter space:** 1024 random two-spin configurations across several total masses and inclinations, run in parallel.
-- **Building an independent pipeline with Bilby and PyCBC** that includes the detector response, as a cross-check.
-- **Validating everything:** time- and frequency-domain waveform comparisons, match landscapes over the precession angle, and per-configuration comparisons of the two models.
+- **Written a match code from scratch:** a noise-weighted inner product with analytic maximisation over orbital phase and polarisation, maximisation over time shift via inverse FFT, and a grid search over the template's in-plane spin orientation. Based on Harry et al. (2016).
+- **Building an independent pipeline with Bilby for parameter estimation** to study the whole parameter space to understand where the bias is in the different models.
+- **Models under study for now:** IMRPhenomXPHM, IMRPhenomXO4a, NRSur7dq4, IMRPhenomTPHM, IMRPhenomXPHM SpinTaylor,  .
 
 ## Tools & methods
 
-Python · LALSuite / LALSimulation · Bilby · PyCBC · NumPy / SciPy · NRSur7dq4, IMRPhenomXPHM, IMRPhenomXO4a (also IMRPhenomTPHM, SEOBNRv5PHM) · noise-weighted matched filtering · SNR-weighted mismatch
+Python · LALSuite / LALSimulation · Bilby · PyCBC · NumPy / SciPy · SNR-weighted mismatch · Fisher Matrix · Bayesian Inference 
 
 ## Background reading
 
-- Thompson et al. (2024), _PhenomXO4a: a phenomenological gravitational-wave model for precessing black-hole binaries with higher multipoles and asymmetries_
-- Pratten et al. (2021), _Computationally efficient models for the dominant and sub-dominant harmonic modes of precessing binary black holes_
-- Harry, Privitera, Bohé & Buonanno (2016), _Searching for gravitational waves from compact binaries with precessing spins_
+- Thompson et al. (2024), *PhenomXO4a: a phenomenological gravitational-wave model for precessing black-hole binaries with higher multipoles and asymmetries*
+- Pratten et al. (2021), *Computationally efficient models for the dominant and sub-dominant harmonic modes of precessing binary black holes*
+- Harry, Privitera, Bohé & Buonanno (2016), *Searching for gravitational waves from compact binaries with precessing spins*
+
