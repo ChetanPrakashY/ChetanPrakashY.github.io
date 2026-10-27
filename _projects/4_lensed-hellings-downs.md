@@ -5,7 +5,7 @@ description: What happens to the Hellings–Downs curve when a pulsar-timing-arr
 img: /assets/img/projects/lensed-hellings-downs.png
 importance: 4
 category: current
-permalink: /projects/lensed-hellings-downs/
+permalink: /projects/pta-lensing/
 info: 2026 – present
 status: Exploratory project
 figures:

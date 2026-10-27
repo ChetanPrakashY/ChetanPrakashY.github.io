@@ -15,7 +15,7 @@ toc:
 
 ## {{ s.title }}
 
-{% if s.role != "" or s.dates != "" %}<p><strong>{{ s.role }}</strong>{% if s.role != "" and s.dates != "" %}, {% endif %}{{ s.dates }}</p>{% endif %}
+{% if s.role != blank or s.dates != blank %}<p><strong>{{ s.role }}</strong>{% if s.role != blank and s.dates != blank %}, {% endif %}{{ s.dates }}</p>{% endif %}
 
 {{ s.text | markdownify }}
 

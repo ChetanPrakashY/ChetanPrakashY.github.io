@@ -86,8 +86,8 @@ content:
       - name: slug
         label: Short name for the file
         type: string
-        description: A few words with dashes, e.g. new-preprint. Only used for the file name.
-        hidden: false
+        description: Required. A few words with dashes, e.g. new-preprint. Only used for the file name.
+        required: true
       - name: body
         label: News text
         type: rich-text
