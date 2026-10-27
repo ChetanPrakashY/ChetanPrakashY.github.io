@@ -11,11 +11,19 @@ importance: 1
 img: /assets/img/projects/precessing-waveforms.png
 permalink: /projects/precessing-waveforms/
 figures:
-  - image: /assets/img/projects/figure-placeholder.png
-    caption: Figure shows mismatch distributions of IMRPhenomXPHM and IMRPhenomXO4a
-      against NRSur7dq4 across total masses. Independently reproducting Fig. 11
-      of Thompson et al. (2024)
-  - {}
+- image: /assets/img/projects/mismatch-60msun.png
+  caption: 'Mismatch between the precessing waveform models IMRPhenomXPHM and IMRPhenomXO4a
+    and the numerical-relativity surrogate NRSur7dq4, for binaries with total mass
+    60 M☉. Histograms: my reproduction. Points: the published values from Fig. 11
+    of Thompson et al. (2024).'
+- image: /assets/img/projects/spin-bias-xphm.png
+  caption: Posterior for the primary spin magnitude a1 from a zero-noise injection
+    of a precessing binary black hole (NRSur7dq4, mass ratio 4, total mass 80 M☉,
+    both spins 0.8 tilted 80 degrees, network SNR 25, LIGO-Virgo) recovered with IMRPhenomXPHM
+    using bilby + nessai. The true value a1 = 0.80 lies far outside the 90% credible
+    interval [0.13, 0.43]; none of the 6221 posterior samples reaches it. Because
+    there is no noise, the offset is purely due to differences between the two waveform
+    models.
 ---
 ## The question
 
