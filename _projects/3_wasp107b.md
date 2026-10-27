@@ -14,7 +14,8 @@ figures:
   caption: Free retrieval of the NIRCam transmission spectrum. Both grism filters
     are fitted simultaneously with a free inter-filter offset; the blue curve is the
     median model with 1σ and 2σ credible intervals, and the lower panel shows residuals
-    in units of σ.
+    in units of σ. The +96 ppm shift of F444W is the retrieved offset, not a correction
+    applied by hand.
   after_point: 2
 - image: /assets/img/projects/wasp107b-miri-vs-published.png
   caption: MIRI/LRS re-reduction of WASP-107b compared with the published spectrum
@@ -40,7 +41,7 @@ spanning 0.6–12 µm and uses **free retrievals**.
   giving transmission spectra in both spectral orders.
 - **NIRCam grism:** transmission spectra using Eureka! in the F322W2 and F444W filters.
 - **MIRI LRS:** a complete **Eureka!** reduction (Stages 1–6), benchmarked
-  against the published MIRI spectrum of Dyrek et al. (2024).
+  against the published MIRI spectrum of Welbanks et al. (2024).
 - **NIRSpec G395H:** full Eureka! reduction for both detectors, giving
   transmission spectra across 2.8–5.2 µm.
 - **Retrievals:** Bayesian free retrievals with **POSEIDON** and **MultiNest**
