@@ -9,8 +9,6 @@ profile:
   align: right
   image: my_pic.jpeg
   image_circular: true
-  more_info: |
-    <p>SISSA</p> <p>Via Bonomea 265</p> <p>34136 Trieste, Italy</p>
 selected_papers: true
 social: true
 announcements:
