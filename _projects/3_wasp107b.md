@@ -10,10 +10,17 @@ importance: 3
 img: /assets/img/projects/wasp107b.png
 permalink: /projects/wasp107b/
 figures:
-  - image: /assets/img/projects/figure-placeholder.png
-    caption: "Placeholder: MIRI LRS transmission spectrum."
-  - image: /assets/img/projects/figure-placeholder.png
-    caption: "Placeholder: NIRSpec white-light curve."
+- image: /assets/img/projects/wasp107b-nircam-retrieval.png
+  caption: Free retrieval of the NIRCam transmission spectrum. Both grism filters
+    are fitted simultaneously with a free inter-filter offset; the blue curve is the
+    median model with 1σ and 2σ credible intervals, and the lower panel shows residuals
+    in units of σ.
+  after_point: 2
+- image: /assets/img/projects/wasp107b-miri-vs-published.png
+  caption: MIRI/LRS re-reduction of WASP-107b compared with the published spectrum
+    of Welbanks et al. (2024). Agreement over the 46 shared channels improves to χ²/N
+    = 0.57 after re-reduction following the published procedures.
+  after_point: 3
 ---
 ## The question
 
@@ -49,11 +56,34 @@ JWST pipeline · exoTEDRF · Eureka! · POSEIDON · MultiNest · astroquery / MA
 Python (NumPy, Astropy, Matplotlib) · transit light-curve fitting · Bayesian
 free retrieval (nested sampling) 
 
-## Background reading
+## Reading list
 
-- Sing et al. (2024), *A warm Neptune's methane reveals core mass and vigorous atmospheric mixing*, Nature
-- Dyrek et al. (2024), JWST MIRI transmission spectrum of WASP-107b
-- Rackham, Apai & Giampapa (2018) and Rackham et al. (2019), *The Transit Light Source Effect* I and II
+**WASP-107b**
+
+- Huang et al. (2026), *A Cloudy Fit to the Atmosphere of WASP-107 b*
+- Murphy et al. (2025), *A Panchromatic Characterization of the Evening and Morning Atmosphere of WASP-107 b: Composition and Cloud Variations, and Insight into the Effect of Stellar Contamination*
+- Krishnamurthy et al. (2025), *Continuous helium absorption from the leading and trailing tails of WASP-107b*
+- Welbanks et al. (2024), *A high internal heat flux and large core in a warm Neptune exoplanet*
+- Sing et al. (2024), *A warm Neptune’s methane reveals core mass and vigorous atmospheric mixing*
+- Dyrek et al. (2024), *SO2, silicate clouds, but no CH4 detected in a warm Neptune*
+
+**Stellar contamination (transit light source effect)**
+
+- Rackham et al. (2018), *The Transit Light Source Effect: False Spectral Features and Incorrect Densities for M-dwarf Transiting Planets*
+- Rackham et al. (2019), *The Transit Light Source Effect II: The Impact of Stellar Heterogeneity on Transmission Spectra of Planets Orbiting Broadly Sun-like Stars*
+
+**Retrievals & methods**
+
+- Grant et al. (2023), *JWST-TST DREAMS: Quartz Clouds in the Atmosphere of WASP-17b*
+- Barstow et al. (2020), *A comparison of exoplanet spectroscopic retrieval tools*
 - Madhusudhan (2018), *Atmospheric Retrieval of Exoplanets*
+
+**K2-18b & biosignatures**
+
+- Madhusudhan et al. (2025), *New Constraints on DMS and DMDS in the Atmosphere of K2-18 b from JWST MIRI*
+- Luque et al. (2025), *Insufficient evidence for DMS and DMDS in the atmosphere of K2-18 b. From a joint analysis of JWST NIRISS, NIRSpec, and MIRI observations*
+- Schmidt et al. (2025), *A Comprehensive Reanalysis of K2-18 b's JWST NIRISS+NIRSpec Transmission Spectrum*
+- Seager et al. (2025), *Prospects for Detecting Signs of Life on Exoplanets in the JWST Era*
+- Benneke et al. (2019), *Water Vapor and Clouds on the Habitable-Zone Sub-Neptune Exoplanet K2-18b*
 
 See also: [K2-18b with JWST MIRI](/projects/k2-18b/), where I first learned these tools.
