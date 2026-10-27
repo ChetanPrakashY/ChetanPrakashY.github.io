@@ -12,10 +12,9 @@ importance: 2
 img: /assets/img/projects/pta-localization.png
 permalink: /projects/pta-localization/
 figures:
-  - image: /assets/img/projects/figure-placeholder.png
-    caption: "Placeholder: Sky-localisation map."
-  - image: /assets/img/projects/figure-placeholder.png
-    caption: "Placeholder: Localisation area against noise."
+  - image: /assets/img/projects/pta-kt-fig3-reproduction.png
+    caption: "My reproduction of Fig. 3 of Kato & Takahashi (2026). Each map shows the 68% sky-localisation area Ω (deg²) of a single continuous-wave source, as a function of its sky position, for a simulated array of 87 pulsars."
+    after_point: 1
 ---
 ## The question
 
@@ -39,6 +38,8 @@ Python · JAX (autodiff, JIT) · NumPy / SciPy · SymPy · pandas · Matplotlib 
 ## Where I started
 
 The project began with the Hellings–Downs curve: Romano & Allen (2024) and Allen (2023) on its meaning and its cosmic variance.
+
+[My derivation notes: the Hellings–Downs curve and its variance (PDF)](/assets/pdf/hellings-downs-variance-notes.pdf)
 
 ## References
 
