@@ -20,7 +20,7 @@ layout: page
       {% for fig in inline_figs %}
         {% if fig.after_point == forloop.parentloop.index %}
           <div class="mt-3 mb-4">
-            {% assign fig_title = fig.caption | strip_html %}{% include figure.liquid path=fig.image title=fig_title class="img-fluid rounded z-depth-1" zoomable=true %}
+            {% assign fig_title = fig.caption | strip_html %}{% include figure.liquid path=fig.image title=fig_title alt=fig_title class="img-fluid rounded z-depth-1" zoomable=true %}
             {% if fig.caption %}<div class="caption">{{ fig.caption | markdownify | remove: '<p>' | remove: '</p>' }}</div>{% endif %}
           </div>
         {% endif %}
@@ -38,7 +38,7 @@ layout: page
   {% for fig in end_figs %}
     <div class="row justify-content-sm-center">
       <div class="col-sm-10 mt-3">
-        {% assign fig_title = fig.caption | strip_html %}{% include figure.liquid path=fig.image title=fig_title class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% assign fig_title = fig.caption | strip_html %}{% include figure.liquid path=fig.image title=fig_title alt=fig_title class="img-fluid rounded z-depth-1" zoomable=true %}
       </div>
     </div>
     {% if fig.caption %}<div class="caption">{{ fig.caption | markdownify | remove: '<p>' | remove: '</p>' }}</div>{% endif %}

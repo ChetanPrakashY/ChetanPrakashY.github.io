@@ -25,7 +25,6 @@ Modelling these bursts needs an accurate, analytic description of the orbit. The
 - **Set up a next-to-leading-order spin–orbit Hamiltonian framework** (Poisson brackets and equations of motion for positions, momenta and spins) as the basis for going to higher order.
 - **Worked towards a model** for linear gravitational-wave bursts with memory in pulsar timing array analyses.
 
-My typeset notes on these equations are on the [post-Newtonian notes](/projects/pn-notes/) page.
 
 ## Tools & methods
 

@@ -24,9 +24,9 @@ I work mostly on **gravitational-wave astrophysics**, from the waveform models w
 
 **Current work**
 
-- **[Waveform systematics for precessing binaries](/projects/precessing-waveforms/) (Master's thesis)** at SISSA, with Prof. Enrico Barausse. and Dr. Rohit S. Chandramouli. How much do different models of spin-precessing black-hole binaries disagree, and when does that disagreement bias what we infer?
-- **[Source localization with pulsar timing arrays](/projects/pta-localization/)** with Prof. Keitaro Takahashi, Kumamoto University. Analyic theory on how well precise pulsar distances can pin down an individual gravitational-wave source on the sky?
+- **[Waveform systematics for precessing binaries](/projects/precessing-waveforms/) (Master's thesis)** at SISSA, with Prof. Enrico Barausse and Dr. Rohit S. Chandramouli. How much do different models of spin-precessing black-hole binaries disagree, and when does that disagreement bias what we infer?
+- **[Source localization with pulsar timing arrays](/projects/pta-localization/)** with Prof. Keitaro Takahashi, Kumamoto University. Analytic theory of how well precise pulsar distances can pin down an individual gravitational-wave source on the sky.
 - **[JWST spectroscopy of WASP-107b](/projects/wasp107b/)** with Prof. Vikram Khaire, IIT Tirupati. A panchromatic retrieval of a warm Neptune's atmosphere that accounts for the spots and faculae on its active host star.
-- **[Lensing effects in pulsar timing array](/projects/pta-lensing/)** with Dr. Sreekanth Harikumar, Nicolaus Copernicus Astronomical Center and Dr. Apratim Ganguly, IUCAA. Studying lensing effects that can happen on NHz gravitational-waves from different lenses and any alteration caused in the PTA HD curve.
+- **[Lensing effects in pulsar timing arrays](/projects/pta-lensing/)** with Dr. Sreekanth Harikumar, Nicolaus Copernicus Astronomical Center and Dr. Apratim Ganguly, IUCAA. Studying lensing effects that can happen on nHz gravitational waves from different lenses and any alteration caused in the PTA Hellings–Downs curve.
 
 Before this, I did research internships at [TIFR Mumbai](/projects/hyperbolic-encounters/) on spinning hyperbolic encounters and gravitational-wave memory events, at [IUCAA Pune](/projects/gw-lensing/) on lensed neutron-star mergers, and a [group project at TIFR](/projects/galaxy-clustering/) on galaxy clustering. Outside research, I am involved in various STEM outreach activities; see [activities](/activities/).

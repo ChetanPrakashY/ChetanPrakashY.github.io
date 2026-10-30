@@ -26,7 +26,7 @@ toc:
 <div class="row">
   {% for ph in s.photos %}
   <div class="col-sm-{{ w }} mt-3">
-    {% include figure.liquid path=ph.image title=ph.caption class="img-fluid rounded z-depth-1" zoomable=true %}
+    {% include figure.liquid path=ph.image title=ph.caption alt=ph.caption class="img-fluid rounded z-depth-1" zoomable=true %}
     <div class="caption">{{ ph.caption }}</div>
   </div>
   {% endfor %}
