@@ -1,0 +1,170 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> Waveform systematics for precessing binaries | Chetan Prakash </title> <meta name="author" content="Chetan Prakash"> <meta name="description" content="How much do state-of-the-art models of spin-precessing black-hole binaries disagree with numerical relativity? Master's thesis at SISSA."> <meta name="keywords" content="gravitational waves, pulsar timing arrays, exoplanets, JWST, waveform modelling, SISSA, IISER Berhampur, physics"> <meta property="og:site_name" content="Chetan Prakash"> <meta property="og:type" content="website"> <meta property="og:title" content="Chetan Prakash | Waveform systematics for precessing binaries"> <meta property="og:url" content="https://chetanprakashy.github.io/projects/precessing-waveforms/"> <meta property="og:description" content="How much do state-of-the-art models of spin-precessing black-hole binaries disagree with numerical relativity? Master's thesis at SISSA."> <meta property="og:locale" content="en"> <meta name="twitter:card" content="summary"> <meta name="twitter:title" content="Waveform systematics for precessing binaries"> <meta name="twitter:description" content="How much do state-of-the-art models of spin-precessing black-hole binaries disagree with numerical relativity? Master's thesis at SISSA."> <script type="application/ld+json">
+    {
+        "author":
+        {
+            "@type": "Person",
+            "name": "Chetan Prakash"
+        },
+        "url": "https://chetanprakashy.github.io/projects/precessing-waveforms/",
+        "@type": "WebSite",
+        "description": "How much do state-of-the-art models of spin-precessing black-hole binaries disagree with numerical relativity? Master's thesis at SISSA.",
+        "headline": "Waveform systematics for precessing binaries",
+        
+        "sameAs": ["https://github.com/ChetanPrakashY"],
+        
+        "name": "Chetan Prakash",
+        "@context": "https://schema.org"
+    }
+  </script> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
+  :root {
+    --max-content-width: 930px;
+  }
+</style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%94%AD&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?v=3116ba77db9ee1581d05bb3e86fbf7f1"> <link rel="canonical" href="https://chetanprakashy.github.io/projects/precessing-waveforms/"> <script src="/assets/js/theme.js?v=5286c3e4c334d0ecb8fc0c40ff4fa7ec"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">Chetan</span> Prakash </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">publications </a> </li> <li class="nav-item active"> <a class="nav-link" href="/projects/">projects <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/activities/">activities </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">Waveform systematics for precessing binaries</h1> <p class="post-description">How much do state-of-the-art models of spin-precessing black-hole binaries disagree with numerical relativity? Master's thesis at SISSA.</p> </header> <article> <p><strong>SISSA, Trieste · Master's thesis with Prof. Enrico Barausse · May 2026 – present</strong> · <em>Paper in preparation</em></p> <h2 id="the-question">The question</h2> <p>Everything we learn from a gravitational-wave detection, such as the masses and spins of the black holes, comes from comparing the data with <strong>waveform models</strong>. Where those models are wrong, the inferred parameters can be biased.</p> <p>When the black holes’ spins are tilted relative to the orbit, the orbital plane <strong>precesses</strong>. This modulates the signal and is one of the hardest effects to model, especially together with higher harmonics. My thesis asks how large the errors of today’s fast precessing models are, where in parameter space they concentrate, and if we can mitigate those biases between those models .</p> <h2 id="progress">Progress</h2> <ul> <li> <strong>Written a match code from scratch:</strong> a noise-weighted inner product with analytic maximisation over orbital phase and polarisation, maximisation over time shift via inverse FFT, and a grid search over the template’s in-plane spin orientation. Based on Harry et al. (2016). <div class="mt-3 mb-4"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/projects/mismatch-60msun-480.webp 480w,/assets/img/projects/mismatch-60msun-800.webp 800w,/assets/img/projects/mismatch-60msun-1400.webp 1400w," type="image/webp" sizes="95vw"> <img src="/assets/img/projects/mismatch-60msun.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" alt="Mismatch between the precessing waveform models IMRPhenomXPHM and IMRPhenomXO4a and the numerical-relativity surrogate NRSur7dq4, for binaries with total mass 60 M☉. Histograms: my reproduction. Points: the published values from Fig. 11 of Thompson et al. (2024)." title="Mismatch between the precessing waveform models IMRPhenomXPHM and IMRPhenomXO4a and the numerical-relativity surrogate NRSur7dq4, for binaries with total mass 60 M☉. Histograms: my reproduction. Points: the published values from Fig. 11 of Thompson et al. (2024)." data-zoomable loading="lazy" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </source></picture> </figure> <div class="caption">Mismatch between the precessing waveform models IMRPhenomXPHM and IMRPhenomXO4a and the numerical-relativity surrogate NRSur7dq4, for binaries with total mass 60 M☉. Histograms: my reproduction. Points: the published values from Fig. 11 of Thompson et al. (2024). </div> </div> </li> <li> <strong>Building an independent pipeline with Bilby for parameter estimation</strong> to study the whole parameter space to understand where the bias is in the different models. <div class="mt-3 mb-4"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/projects/spin-bias-xphm-480.webp 480w,/assets/img/projects/spin-bias-xphm-800.webp 800w,/assets/img/projects/spin-bias-xphm-1400.webp 1400w," type="image/webp" sizes="95vw"> <img src="/assets/img/projects/spin-bias-xphm.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" alt="Posterior for the primary spin magnitude a1 from a zero-noise injection of a precessing binary black hole (NRSur7dq4, mass ratio 4, total mass 80 M☉, both spins 0.8 tilted 80 degrees, network SNR 25, LIGO-Virgo) recovered with IMRPhenomXPHM using bilby + nessai. The true value a1=0.80 lies far outside the 90% credible interval [0.13, 0.43]; none of the 6221 posterior samples reaches it. Because there is no noise, the offset is purely due to differences between the two waveform models." title="Posterior for the primary spin magnitude a1 from a zero-noise injection of a precessing binary black hole (NRSur7dq4, mass ratio 4, total mass 80 M☉, both spins 0.8 tilted 80 degrees, network SNR 25, LIGO-Virgo) recovered with IMRPhenomXPHM using bilby + nessai. The true value a1=0.80 lies far outside the 90% credible interval [0.13, 0.43]; none of the 6221 posterior samples reaches it. Because there is no noise, the offset is purely due to differences between the two waveform models." data-zoomable loading="lazy" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </source></picture> </figure> <div class="caption">Posterior for the primary spin magnitude a1 from a zero-noise injection of a precessing binary black hole (NRSur7dq4, mass ratio 4, total mass 80 M☉, both spins 0.8 tilted 80 degrees, network SNR 25, LIGO-Virgo) recovered with IMRPhenomXPHM using bilby + nessai. The true value a1 = 0.80 lies far outside the 90% credible interval [0.13, 0.43]; none of the 6221 posterior samples reaches it. Because there is no noise, the offset is purely due to differences between the two waveform models. </div> </div> </li> <li> <strong>Models under study for now:</strong> IMRPhenomXPHM, IMRPhenomXO4a, NRSur7dq4, IMRPhenomTPHM, IMRPhenomXPHM SpinTaylor, . </li> </ul> <h2 id="tools--methods">Tools &amp; methods</h2> <p>Python · LALSuite / LALSimulation · Bilby · PyCBC · NumPy / SciPy · SNR-weighted mismatch · Fisher Matrix · Bayesian Inference</p> <h2 id="reading-list">Reading list</h2> <p>Papers I’ve been reading for this project.</p> <p><strong>Precessing waveform models</strong></p> <ul> <li>Morras et al. (2026), <em>Post-Newtonian inspiral waveform model for eccentric precessing binaries with higher-order modes and matter effects</em> </li> <li>Hamilton et al. (2025), <em>PhenomXPNR: An improved gravitational wave model linking precessing inspirals and NR-calibrated merger-ringdown</em> </li> <li>Thompson et al. (2024), <em>PhenomXO4a: a phenomenological gravitational-wave model for precessing black-hole binaries with higher multipoles and asymmetries</em> </li> <li>Ramos-Buades et al. (2023), <em>SEOBNRv5PHM: Next generation of accurate and efficient multipolar precessing-spin effective-one-body waveforms for binary black holes</em> </li> <li>Yu et al. (2023), <em>Accurate and Efficient Waveform Model for Precessing Binary Black Holes</em> </li> <li>Estellés et al. (2022), <em>New twists in compact binary waveform modelling: a fast time domain model for precession</em> </li> <li>Hamilton et al. (2021), <em>The final twist: A model of gravitational waves from precessing black-hole binaries through merger and ringdown</em> </li> <li>Pratten et al. (2021), <em>Computationally efficient models for the dominant and sub-dominant harmonic modes of precessing binary black holes</em> </li> <li>Isoyama et al. (2021), <em>Post-Newtonian templates for gravitational waves from compact binary inspirals</em> </li> <li>Moore et al. (2018), <em>A Fourier Domain Waveform for Non-Spinning Binaries with Arbitrary Eccentricity</em> </li> <li>Chatziioannou et al. (2017), <em>Constructing Gravitational Waves from Generic Spin-Precessing Compact Binary Inspirals</em> </li> </ul> <p><strong>Waveform systematics &amp; parameter-estimation biases</strong></p> <ul> <li>Copparoni et al. (2026), <em>When vacuum breaks: a self-consistency test for astrophysical environments in extreme mass ratio inspirals</em> </li> <li>Chandramouli et al. (2025), <em>Systematic biases due to waveform mismodeling in parametrized post-Einsteinian tests of general relativity: The impact of neglecting spin precession and higher modes</em> </li> <li>Kumar et al. (2025), <em>Accounting for the Known Unknowns: A Parametric Framework to Incorporate Systematic Waveform Errors in Gravitational-Wave Parameter Estimation</em> </li> <li>Mezzasoma et al. (2025), <em>Uncertainty-aware waveform modeling for high signal-to-noise ratio gravitational-wave inference</em> </li> <li>Kapil et al. (2024), <em>Systematic bias from waveform modeling for binary black hole populations in next-generation gravitational wave detectors</em> </li> <li>Owen et al. (2023), <em>Waveform accuracy and systematic uncertainties in current gravitational wave observations</em> </li> <li>Harry et al. (2016), <em>Searching for Gravitational Waves from Compact Binaries with Precessing Spins</em> </li> <li>Moore &amp; Gair (2014), <em>Novel Method for Incorporating Model Uncertainties into Gravitational Wave Parameter Estimates</em> </li> <li>Cutler &amp; Vallisneri (2007), <em>LISA detections of massive black hole inspirals: parameter extraction errors due to inaccurate template waveforms</em> </li> </ul> <p><strong>Fisher matrix &amp; forecasting</strong></p> <ul> <li>Dupletsa et al. (2025), <em>Validating Prior-informed Fisher-matrix Analyses against GWTC Data</em> </li> <li>García-Quirós et al. (2025), <em>GPU-accelerated LISA parameter estimation with full time domain response</em> </li> <li>Dupletsa et al. (2023), <em>GWFish: A simulation software to evaluate parameter-estimation capabilities of gravitational-wave detector networks</em> </li> <li>Iacovelli et al. (2022), <em>GWFAST: a Fisher information matrix Python code for third-generation gravitational-wave detectors</em> </li> <li>Harry &amp; Lundgren (2021), <em>Failure of the Fisher matrix when including tidal terms: Considering construction of template banks of tidally deformed binary neutron stars</em> </li> <li>Ajith et al. (2014), <em>Effectual template bank for the detection of gravitational waves from inspiralling compact binaries with generic spins</em> </li> <li>Cutler &amp; Flanagan (1994), <em>Gravitational Waves from Merging Compact Binaries: How Accurately Can One Extract the Binary’s Parameters from the Inspiral Waveform?</em> </li> </ul> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Chetan Prakash. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Last updated: October 30, 2026. </div> </footer> <script>
+  window.alFolio = {
+    compatBootstrap: false
+  };
+</script> <script src="/assets/js/nav-toggle.js?v=141bd79a73ebc0f0b6ea58e440ae79fc"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js?v=e49affc7bd2646f6acdad1dbe02c2359" type="text/javascript"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/assets/al_math/js/mathjax-setup.js"></script> <script src="/assets/js/tooltips-setup.js?v=fe487e99db6c43751e6e7bdb2d6a0611"></script> <script src="/assets/js/no_defer.js?v=53b1b1a645525975c963ce8bf8bfefcf"></script> <script defer src="/assets/js/common.js?v=87baac90f765f2f3362dcf6aaf312a8a"></script> <script defer src="/assets/js/copy_code.js?v=c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?v=896d254890d9b47f0281f63bfccf0dee"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/al_img_tools/js/zoom.js"></script> <script defer src="/assets/js/progress-bar.js?v=499464c5c63ced6cf7ad62509f1e2610" type="text/javascript"></script> <script src="https://cdn.jsdelivr.net/npm/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js" integrity="sha256-uMJJ3EoTyfRBoTbR+lrfu1uRQ87RZG8AR3cVNuQVeFg=" crossorigin="anonymous"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/assets/al_search/js/search/ninja-keys.min.js"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/al_search/js/search-setup.js"></script> <script>
+// get the ninja-keys element
+const ninja = document.querySelector('ninja-keys');
+
+// add the home and posts menu items
+ninja.data = [{
+    id: "nav-about",
+    title: "about",
+    section: "Navigation",
+    handler: () => {
+      window.location.href = "/";
+    },
+  },{id: "nav-publications",
+          title: "publications",
+          description: "Papers, newest first. All three are currently in preparation.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "Research projects, past and present, and a few sets of notes.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-activities",
+          title: "activities",
+          description: "Outreach, science communication and student leadership at IISER Berhampur.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/activities/";
+          },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "Education, research experience and activities.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
+        },{id: "news-summer-research-at-iucaa-pune-with-dr-anupreeta-more-on-lensing-and-tidal-deformability-effects-on-binary-neutron-stars",
+          title: 'Summer research at IUCAA, Pune with Dr. Anupreeta More on Lensing and tidal...',
+          description: "",
+          section: "News",},{id: "news-summer-research-at-tifr-mumbai-with-prof-a-gopakumar-on-spinning-hyperbolic-encounters-and-gravitational-wave-memory-event",
+          title: 'Summer research at TIFR Mumbai with Prof. A. Gopakumar on spinning hyperbolic encounters...',
+          description: "",
+          section: "News",},{id: "news-joined-dr-vikram-khaire-s-group-at-iit-tirupati-to-work-on-jwst-transmission-spectroscopy-of-the-warm-neptune-wasp-107b",
+          title: 'Joined Dr. Vikram Khaire’s group at IIT Tirupati to work on JWST transmission...',
+          description: "",
+          section: "News",},{id: "news-started-a-collaboration-with-prof-keitaro-takahashi-kumamoto-university-on-localizing-gravitational-wave-sources-with-pulsar-timing-arrays",
+          title: 'Started a collaboration with Prof. Keitaro Takahashi (Kumamoto University) on localizing gravitational-wave sources...',
+          description: "",
+          section: "News",},{id: "news-started-collaborative-work-with-dr-sreekanth-harikumar-and-dr-apratim-ganguly-on-lensing-effects-in-pulsar-timing-array",
+          title: 'Started collaborative work with Dr. Sreekanth Harikumar and Dr. Apratim Ganguly on Lensing...',
+          description: "",
+          section: "News",},{id: "news-started-my-master-s-thesis-at-sissa-with-prof-enrico-barausse-on-waveform-systematics-for-precessing-binaries",
+          title: 'Started my master’s thesis at SISSA with Prof. Enrico Barausse, on waveform systematics...',
+          description: "",
+          section: "News",},{id: "projects-waveform-systematics-for-precessing-binaries",
+          title: 'Waveform systematics for precessing binaries',
+          description: "How much do state-of-the-art models of spin-precessing black-hole binaries disagree with numerical relativity? Master&#39;s thesis at SISSA.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/precessing-waveforms/";
+            },},{id: "projects-gravitational-wave-source-localization-with-pulsar-timing-arrays",
+          title: 'Gravitational-wave source localization with pulsar timing arrays',
+          description: "How precisely can a pulsar timing array pin down a single supermassive black-hole binary on the sky, and how much do precise pulsar distances help?",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/pta-localization/";
+            },},{id: "projects-a-panchromatic-jwst-view-of-wasp-107b",
+          title: 'A panchromatic JWST view of WASP-107b',
+          description: "Combining four JWST instruments into one transmission spectrum of a warm Neptune,and the TLSE effects",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/wasp107b/";
+            },},{id: "projects-lensing-of-nanohertz-gravitational-waves",
+          title: 'Lensing of nanohertz gravitational waves',
+          description: "What happens to the Hellings–Downs curve when we try to account for lensing in pulsar-timing-array signal.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/pta-lensing/";
+            },},{id: "projects-k2-18b-with-jwst-miri",
+          title: 'K2-18b with JWST MIRI',
+          description: "Hands-on JWST data reduction of the sub-Neptune K2-18b, and learning what biosignatures in exoplanet spectra could look like.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/k2-18b/";
+            },},{id: "projects-spinning-hyperbolic-encounters",
+          title: 'Spinning hyperbolic encounters',
+          description: "Extending the post-Newtonian description of unbound compact-object encounters to include spin–orbit effects, with an eye on gravitational-wave memory in PTAs.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/hyperbolic-encounters/";
+            },},{id: "projects-can-microlensing-mimic-tidal-effects",
+          title: 'Can microlensing mimic tidal effects?',
+          description: "Binary neutron-star waveforms under gravitational microlensing, and how easily lensing distortions could be confused with tidal deformability.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gw-lensing/";
+            },},{id: "projects-galaxy-clustering",
+          title: 'Galaxy clustering',
+          description: "Modelling the projected two-point correlation function of galaxies. A summer group project at TIFR.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/galaxy-clustering/";
+            },},{
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%63%70%72%61%6B%61%73%68@%73%69%73%73%61.%69%74", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/ChetanPrakashY", "_blank");
+        },
+      },{
+      id: 'light-theme',
+      title: 'Change theme to light',
+      description: 'Change the theme of the site to Light',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("light");
+      },
+    },
+    {
+      id: 'dark-theme',
+      title: 'Change theme to dark',
+      description: 'Change the theme of the site to Dark',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("dark");
+      },
+    },
+    {
+      id: 'system-theme',
+      title: 'Use system default theme',
+      description: 'Change the theme of the site to System Default',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("system");
+      },
+    },];
+
+</script> <script src="/assets/al_search/js/shortcut-key.js"></script> </body> </html>
