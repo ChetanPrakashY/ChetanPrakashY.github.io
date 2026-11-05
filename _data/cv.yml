@@ -69,8 +69,7 @@ cv:
         start_date: 2025-05
         end_date: 2025-09
         highlights:
-          - Incorporated spins into the post-Newtonian Keplerian-type parametrization of hyperbolic encounters.
-          - Worked towards a model for linear gravitational-wave bursts with memory in pulsar timing array analyses.
+          - Independently derived the 1.5PN spin–orbit quasi-Keplerian solution for hyperbolic encounters.
 
       - company: Inter-University Centre for Astronomy and Astrophysics (IUCAA)
         position: Research intern (advisor Dr. Anupreeta More)
