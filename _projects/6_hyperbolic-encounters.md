@@ -18,7 +18,7 @@ To model the signal you first need the orbit in closed form. The **quasi-Kepleri
 ## What I did
 
 - **Newtonian and 1PN orbits first.** I rebuilt the hyperbolic solution step by step in Mathematica: find the turning points of the radial equation, factor the radial polynomial, then integrate for $$t(u)$$ and $$\phi(u)$$.
-- **Added the spin–orbit terms** (harmonic gauge, aligned spins) and pushed the same calculation to 1.5PN. The orbit takes the form
+- **Added the spin–orbit terms** (harmonic gauge, aligned spins) and pushed the same calculation to 1.5PN. This result is not new: the 1.5PN spin–orbit hyperbolic orbit was first worked out by De Vittori et al. (2014), and later by Bini, Geralico & Rettegno (2023). I derived it independently, and my results agree with theirs. The orbit takes the form
 
   $$ r = a_r\,(e_r \cosh u - 1), $$
 
@@ -31,18 +31,12 @@ To model the signal you first need the orbit in closed form. The **quasi-Kepleri
   $$ K = 1 + \frac{3}{c^2 j^2} - \frac{2\left[\,2\delta\,\chi_A + (2 - \eta)\,\chi_S\,\right]}{c^3 j^3}, $$
 
   but not the mean motion, $$n = (2E)^{3/2}\left[1 + (15 - \eta)\,E/4c^2\right]$$.
-- **Checked it.** In 2026 I went back over the notebook and found a mistake: I had simplified everything under bound-orbit assumptions ($$E < 0$$). For a hyperbolic orbit this picks the wrong square-root branches and flips the signs of several elements. After correcting it, all the orbital elements and both equations agree exactly with Bini, Geralico & Rettegno (2023), and with a direct numerical integration of the 1PN + spin–orbit equations of motion.
-- **Looked ahead to 2PN.** I worked through the next-to-leading-order spin–orbit Hamiltonian of Tessmer, Hartung & Schäfer (2010), which is where the next order would start.
 
-I have since rewritten the whole 1.5PN calculation as one self-contained Mathematica notebook. It starts from $$\dot r^2$$ and $$\dot\phi$$, ends with the orbital elements, and includes the checks against Bini et al. and against a numerically integrated orbit: [hyperbolic-1.5pn-spin-orbit.nb](/assets/files/hyperbolic-1.5pn-spin-orbit.nb).
-
-## Next step
-
-The orbit was always meant as an input for the signal. The goal is to compute the linear memory from spinning hyperbolic encounters and see how much spin changes the timing residuals. That would extend the non-spinning search of Dandapat et al. (2024), which was applied to NANOGrav data. I haven't started this part yet.
+I have written the whole 1.5PN calculation as one self-contained Mathematica notebook. It starts from $$\dot r^2$$ and $$\dot\phi$$, ends with the orbital elements, and includes the checks against Bini et al. and against a numerically integrated orbit: [hyperbolic-1.5pn-spin-orbit.nb](/assets/files/hyperbolic-1.5pn-spin-orbit.nb).
 
 ## Tools & methods
 
-Mathematica · post-Newtonian equations of motion · quasi-Keplerian parametrisation · spin–orbit coupling · ADM Hamiltonians
+Mathematica · post-Newtonian equations of motion · quasi-Keplerian parametrisation · spin–orbit coupling
 
 ## References
 
@@ -51,5 +45,3 @@ Mathematica · post-Newtonian equations of motion · quasi-Keplerian parametrisa
 3. L. De Vittori, A. Gopakumar, A. Gupta and P. Jetzer, *Gravitational waves from spinning compact binaries in hyperbolic orbits*, Phys. Rev. D **90**, 124066 (2014), arXiv:1410.6311.
 4. G. Cho, A. Gopakumar, M. Haney and H. M. Lee, *Gravitational waves from compact binaries in post-Newtonian accurate hyperbolic orbits*, Phys. Rev. D **98**, 024039 (2018), arXiv:1807.02380.
 5. D. Bini, A. Geralico and P. Rettegno, *Spin-orbit contribution to radiative losses for spinning binaries with aligned spins*, arXiv:2307.12670 (2023).
-6. M. Tessmer, J. Hartung and G. Schäfer, *Motion and gravitational wave forms of eccentric compact binaries with orbital-angular-momentum-aligned spins under next-to-leading order in spin-orbit and leading order in spin(1)-spin(2) and spin-squared couplings*, Class. Quantum Grav. **27**, 165005 (2010), arXiv:1003.2735.
-7. S. Dandapat, A. Susobhanan, L. Dey, A. Gopakumar, P. T. Baker and P. Jetzer, *Efficient prescription to search for linear gravitational wave memory from hyperbolic black hole encounters and its application to the NANOGrav 12.5-year dataset*, Phys. Rev. D **109**, 103018 (2024), arXiv:2402.03472.
