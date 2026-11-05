@@ -2,7 +2,7 @@
 layout: project
 title: A panchromatic JWST view of WASP-107b
 description: Combining four JWST instruments into one transmission spectrum of a
-  warm Neptune,and the TLSE effects
+  warm Neptune, and the TLSE effects
 info: IIT Tirupati · with Dr. Vikram Khaire · July 2025 – present
 status: First-author paper in preparation
 category: current
@@ -49,7 +49,7 @@ spanning 0.6–12 µm and uses **free retrievals**.
   spotted host. Detection significances come from leave-one-species-out model
   comparison.
 - **In progress:** a joint fit across all instruments with free
-  inter-instrument offsets, and some extension ideas we are woking on.
+  inter-instrument offsets, and some extension ideas we are working on.
 
 ## Tools & methods
 
