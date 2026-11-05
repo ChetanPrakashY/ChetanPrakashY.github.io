@@ -20,35 +20,48 @@ cv:
         start_date: 2022-08
         end_date: 2027-07
         highlights:
-          - Master's thesis at SISSA, Trieste, Italy (advisor Prof. Enrico Barausse), from May 2026.
+          - Currently in 5th year, pursuing master's thesis at SISSA, Trieste, Italy.
+
+      - institution: Shanti Gyan Niketan Sr. Sec. Public School
+        location: New Delhi, India
+        area: Secondary and Senior Secondary Education
+        studyType: School
+        date: 2022-07
 
     Experience:
       - company: SISSA – Scuola Internazionale Superiore di Studi Avanzati
-        position: Master's thesis student (advisor Prof. Enrico Barausse)
+        position: Master's thesis student (advisor Prof. Enrico Barausse; with Dr. Rohit S. Chandramouli)
         location: Trieste, Italy
         start_date: 2026-05
         end_date: present
         highlights:
-          - Waveform systematics between spin-precessing gravitational-wave approximants.
-          - Gravitational-wave waveform modelling.
+          - Studying waveform systematics between spin-precessing gravitational-wave approximants, and when model disagreement biases inferred source parameters.
+          - Gravitational-wave waveform modelling and injection-recovery parameter estimation.
 
       - company: Kumamoto University
-        position: Research collaboration (with Prof. Takahashi)
-        location: Kumamoto, Japan
+        position: Research collaboration (with Prof. Keitaro Takahashi)
+        location: Kumamoto, Japan (remote)
         start_date: 2026-01
         end_date: present
         highlights:
-          - Sky localization of individual gravitational-wave sources with pulsar timing arrays.
+          - Developing an analytic theory of how precise pulsar distances improve sky localization of individual gravitational-wave sources with pulsar timing arrays (PTAs).
+
+      - company: Nicolaus Copernicus Astronomical Center (CAMK) and IUCAA
+        position: Research collaboration (with Dr. Sreekanth Harikumar and Dr. Apratim Ganguly)
+        location: Warsaw, Poland / Pune, India (remote)
+        start_date: 2026-05
+        end_date: present
+        highlights:
+          - Studying lensing effects on nHz gravitational waves and their impact on the PTA Hellings–Downs curve.
 
       - company: Indian Institute of Technology Tirupati
-        position: Research intern (advisor Dr. Vikram Khaire)
+        position: Research collaboration (with Dr. Vikram Khaire)
         location: Tirupati, India
         start_date: 2025-07
         end_date: present
         highlights:
-          - Reducing JWST exoplanet spectroscopy data to transmission spectra.
-          - Free-retrieval analysis of the warm Neptune WASP-107b, including the heterogeneous surface of its active K-dwarf host.
-          - Searching for biosignatures with transit spectroscopy.
+          - Panchromatic free-retrieval analysis of the warm Neptune WASP-107b, including the heterogeneous surface of its active K-dwarf host; paper in preparation.
+          - Investigating biosignatures on exoplanets using transit spectroscopy.
 
       - company: Tata Institute of Fundamental Research (TIFR)
         position: Research intern (advisor Prof. A. Gopakumar)
@@ -65,8 +78,7 @@ cv:
         start_date: 2024-05
         end_date: 2024-08
         highlights:
-          - Tidal deformability of coalescing neutron stars under gravitational microlensing.
-          - Tested waveform fitting factors during parameter estimation.
+          - Analysed the tidal deformability of coalescing neutron stars under gravitational microlensing, and tested waveform fitting factors in parameter estimation.
 
       - company: Tata Institute of Fundamental Research (TIFR)
         position: Group project intern (advisor Dr. Shadab Alam)
@@ -74,15 +86,15 @@ cv:
         start_date: 2024-05
         end_date: 2024-08
         highlights:
-          - Galaxy clustering with the projected correlation function.
+          - Studied galaxy clustering through the projected correlation function.
 
     Publications:
-      - title: Waveform systematics of spin-precessing gravitational-wave approximants
+      - title: Systematic errors due to inaccuracies in spin precessing waveform models
         authors:
           - Chetan Prakash
           - Enrico Barausse
-        publisher: In preparation
-        releaseDate: 2026
+        publisher: In preparation (master's thesis work, SISSA)
+        releaseDate: 2027
 
       - title: "A panchromatic free-retrieval analysis of the warm Neptune WASP-107b: characterising the heterogeneous surface of its active K-dwarf host"
         authors:
@@ -91,10 +103,10 @@ cv:
         publisher: In preparation
         releaseDate: 2026
 
-      - title: Source localization with pulsar timing arrays
+      - title: An analytic theory of how precise pulsar distances sharpen the sky position of a single gravitational wave source
         authors:
           - Chetan Prakash
-          - Takahashi
+          - Keitaro Takahashi
         publisher: In preparation
         releaseDate: 2026
 
@@ -105,8 +117,9 @@ cv:
         start_date: 2024-06
         end_date: 2025-09
         highlights:
-          - Organised telescope demonstrations, talks and outreach events.
-          - Led an X-ray astronomy data-analysis workshop attended by 330 students from across India.
+          - Coordinator of the astronomy and cosmology club of IISER Berhampur.
+          - Organised telescope demonstrations, talks and various outreach events.
+          - Led an X-ray astronomy data-analysis workshop attended by 330 students from across India, with invited speakers from the field.
 
       - company: Lovelace Society, IISER Berhampur
         position: Co-coordinator
@@ -114,33 +127,49 @@ cv:
         start_date: 2024-01
         end_date: 2025-06
         highlights:
-          - Ran hackathons and weekly programming workshops.
+          - Promoted coding and its use across scientific disciplines.
+          - Conducted hackathons and weekly programming workshops.
 
       - company: Episteme, IISER Berhampur science magazine
         position: Writer and web team member
         location: Berhampur, India
         highlights:
-          - Wrote articles and helped manage the magazine website.
+          - Authored articles in the student science magazine of IISER Berhampur.
+          - Worked with the technical team to manage the magazine website and its online publication.
+
+    Talks, Science Communication and Outreach:
+      - bullet: Presented papers and gave talks on my ongoing research at IISER Berhampur.
+      - bullet: "**Trieste Next 2026** (SISSA): explained the Fourier transform and gravitational waves to the public at SISSA's stall at Trieste's science festival."
+      - bullet: Taught school students the basics of astronomy and how telescopes work during the STREAM outreach programme of IISER Berhampur, and designed interactive space-science activities.
+      - bullet: Organised events for Invenio, the annual science fest of IISER Berhampur.
+      - bullet: Mentored undergraduates in navigating college life and finding their field of interest.
 
     Skills:
-      - name: Programming
+      - name: Computational
         icon: fa-solid fa-code
-        keywords: "Python, Mathematica, MATLAB, SQL, Linux, LaTeX, HTML"
-      - name: Gravitational waves
+        keywords: "Python, Mathematica, Jupyter, SQL, Linux, LaTeX, HTML, MATLAB, HPC clusters (batch jobs)"
+      - name: Packages
         icon: fa-solid fa-wave-square
-        keywords: "PyCBC, Bilby, pyCWB, LALSuite, GWOSC"
-      - name: Astronomy & data
+        keywords: "pandas, NumPy, Matplotlib, SciPy, fitsio, pyccl, Astropy, PyCBC, Bilby, pyCWB, LALSuite"
+      - name: Datasets
         icon: fa-solid fa-satellite
-        keywords: "Astropy, NumPy, SciPy, pandas, Matplotlib, fitsio, pyccl, JWST transmission spectroscopy"
-      - name: Other
+        keywords: "JWST (transmission spectra), GWOSC"
+      - name: Other technical
         icon: fa-solid fa-microchip
-        keywords: "Basic machine learning, web development, Qiskit, Arduino"
+        keywords: "Basic ML, web development, Qiskit, Arduino"
+      - name: Miscellaneous
+        icon: fa-solid fa-pen-nib
+        keywords: "Scientific writing, graphic design, leadership and management"
 
     Languages:
       - name: English
+        summary: Medium of instruction throughout school and BS-MS
       - name: Hindi
 
     Certificates:
+      - name: Gravitational Wave Open Data Workshop 2026, Certificate of Achievement
+        date: 2026-04
+        issuer: GWOSC
       - name: Certificate of Appreciation for Student Mentorship and Guidance
         date: 2025-11
         issuer: IISER Berhampur
@@ -150,14 +179,26 @@ cv:
       - name: Certificate of Recognition, Coding Club coordinatorship
         date: 2025-08
         issuer: IISER Berhampur
+      - name: Inter House Sports Fest LAKSHAY, tennis
+        date: 2025-02
+        issuer: IISER Berhampur
+      - name: Inter IISER Sports Meet, tennis
+        date: 2024-12
+        issuer: Inter IISER Sports Meet
+      - name: TEDx talks participation
+        date: 2024-09
+        issuer: TEDxIISERBPR
+      - name: Invitation letter for Summer 2024 group project
+        date: 2024-05
+        issuer: TIFR
       - name: International Astronomical Search Collaboration
         date: 2023-08
         issuer: IASC
-      - name: Introduction to Quantum Computing
+      - name: Introduction to Quantum Computing, course completion
         date: 2021-05
         issuer: The Coding School
 
     Interests:
-      - name: Outside physics
+      - name: Hobbies and interests
         icon: fa-solid fa-heart
-        keywords: "Lawn tennis, basketball, trekking, painting, reading and writing"
+        keywords: "Lawn tennis, painting, basketball, trekking, writing and reading, games"

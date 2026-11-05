@@ -3,7 +3,8 @@ layout: project
 title: Lensing of nanohertz gravitational waves
 description: What happens to the Hellings–Downs curve when we try to account for
   lensing in pulsar-timing-array signal.
-info: 2026 – present
+info: Nicolaus Copernicus Astronomical Center (CAMK) and IUCAA (remote) · with Dr. Sreekanth
+  Harikumar and Dr. Apratim Ganguly · May 2026 – present
 status: Exploratory project
 category: current
 importance: 4

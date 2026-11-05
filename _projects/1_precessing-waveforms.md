@@ -3,8 +3,8 @@ layout: project
 title: Waveform systematics for precessing binaries
 description: How much do state-of-the-art models of spin-precessing black-hole
   binaries disagree with numerical relativity? Master's thesis at SISSA.
-info: SISSA, Trieste · Master's thesis with Prof. Enrico Barausse · May 2026 –
-  present
+info: SISSA, Trieste · Master's thesis with Prof. Enrico Barausse and Dr. Rohit S.
+  Chandramouli · May 2026 – present
 status: Paper in preparation
 category: current
 importance: 1

@@ -42,6 +42,12 @@ sections:
       - **Invenio science fest.** I organised events for IISER Berhampur's
       annual science fest.
 
+      - **Trieste Next 2026.** At SISSA's stall at Trieste's science festival, I
+      explained the Fourier transform and gravitational waves to the public.
+
+      - **Research talks.** I have presented papers and given talks on my ongoing
+      research at IISER Berhampur.
+
       - **Mentoring.** I mentor undergraduates as they find their way through
       college life and into a field of interest.
 
@@ -62,6 +68,8 @@ sections:
       - image: /assets/img/activities/tedx.png
         caption: TEDxIISERBPR
 recognition:
+  - date: Apr 2026
+    title: Gravitational Wave Open Data Workshop 2026, Certificate of Achievement (GWOSC)
   - date: Nov 2025
     title: Certificate of Appreciation for Student Mentorship and Guidance, IISER
       Berhampur
@@ -69,8 +77,14 @@ recognition:
     title: Certificate of Appreciation for Scientific Outreach, STREAM
   - date: Aug 2025
     title: Certificate of Recognition, Coding Club coordinatorship
+  - date: Feb 2025
+    title: Inter House Sports Fest LAKSHAY, tennis, IISER Berhampur
+  - date: Dec 2024
+    title: Inter IISER Sports Meet, tennis
   - date: Sep 2024
     title: TEDxIISERBPR participant
+  - date: May 2024
+    title: Invitation for the Summer 2024 group project, TIFR
   - date: Aug 2023
     title: International Astronomical Search Collaboration (IASC)
   - date: May 2021
