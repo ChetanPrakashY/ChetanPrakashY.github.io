@@ -34,6 +34,8 @@ To model the signal you first need the orbit in closed form. The **quasi-Kepleri
 - **Checked it.** In 2026 I went back over the notebook and found a mistake: I had simplified everything under bound-orbit assumptions ($$E < 0$$). For a hyperbolic orbit this picks the wrong square-root branches and flips the signs of several elements. After correcting it, all the orbital elements and both equations agree exactly with Bini, Geralico & Rettegno (2023), and with a direct numerical integration of the 1PN + spin–orbit equations of motion.
 - **Looked ahead to 2PN.** I worked through the next-to-leading-order spin–orbit Hamiltonian of Tessmer, Hartung & Schäfer (2010), which is where the next order would start.
 
+I have since rewritten the whole 1.5PN calculation as one self-contained Mathematica notebook. It starts from $$\dot r^2$$ and $$\dot\phi$$, ends with the orbital elements, and includes the checks against Bini et al. and against a numerically integrated orbit: [hyperbolic-1.5pn-spin-orbit.nb](/assets/files/hyperbolic-1.5pn-spin-orbit.nb).
+
 ## Next step
 
 The orbit was always meant as an input for the signal. The goal is to compute the linear memory from spinning hyperbolic encounters and see how much spin changes the timing residuals. That would extend the non-spinning search of Dandapat et al. (2024), which was applied to NANOGrav data. I haven't started this part yet.
