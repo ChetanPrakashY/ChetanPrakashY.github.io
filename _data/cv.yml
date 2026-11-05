@@ -109,34 +109,12 @@ cv:
         publisher: In preparation
         releaseDate: 2026
 
-    Volunteer:
-      - company: Naxatra, Astronomy & Cosmology Club, IISER Berhampur
-        position: Coordinator
-        location: Berhampur, India
-        start_date: 2024-06
-        end_date: 2025-09
-        highlights:
-          - Coordinator of the astronomy and cosmology club of IISER Berhampur.
-          - Organised telescope demonstrations, talks and various outreach events.
-          - Led an X-ray astronomy data-analysis workshop attended by 330 students from across India, with invited speakers from the field.
+    Leadership and Activities:
+      - bullet: "**Coordinator, Naxatra** (Astronomy & Cosmology Club, IISER Berhampur), June 2024 – September 2025. Organised telescope demonstrations, talks and outreach events, and led an X-ray astronomy data-analysis workshop attended by 330 students from across India, with invited speakers from the field."
+      - bullet: "**Co-coordinator, Lovelace Society** (Tech Society, IISER Berhampur), January 2024 – June 2025. Promoted coding and its use across scientific disciplines; ran hackathons and weekly programming workshops."
+      - bullet: "**Episteme** (student science magazine, IISER Berhampur). Wrote articles and worked with the technical team on the magazine website and its online publication."
 
-      - company: Lovelace Society, IISER Berhampur
-        position: Co-coordinator
-        location: Berhampur, India
-        start_date: 2024-01
-        end_date: 2025-06
-        highlights:
-          - Promoted coding and its use across scientific disciplines.
-          - Conducted hackathons and weekly programming workshops.
-
-      - company: Episteme, IISER Berhampur science magazine
-        position: Writer and web team member
-        location: Berhampur, India
-        highlights:
-          - Authored articles in the student science magazine of IISER Berhampur.
-          - Worked with the technical team to manage the magazine website and its online publication.
-
-    Talks, Science Communication and Outreach:
+    Talks and Outreach:
       - bullet: Presented papers and gave talks on my ongoing research at IISER Berhampur.
       - bullet: "**Trieste Next 2026** (SISSA): explained the Fourier transform and gravitational waves to the public at SISSA's stall at Trieste's science festival."
       - bullet: Taught school students the basics of astronomy and how telescopes work during the STREAM outreach programme of IISER Berhampur, and designed interactive space-science activities.
@@ -156,14 +134,12 @@ cv:
       - name: Other technical
         icon: fa-solid fa-microchip
         keywords: "Basic ML, web development, Qiskit, Arduino"
+      - name: Languages
+        icon: fa-solid fa-language
+        keywords: "English, Hindi"
       - name: Miscellaneous
         icon: fa-solid fa-pen-nib
         keywords: "Scientific writing, graphic design, leadership and management"
-
-    Languages:
-      - name: English
-        summary: Medium of instruction throughout school and BS-MS
-      - name: Hindi
 
     Certificates:
       - name: Gravitational Wave Open Data Workshop 2026, Certificate of Achievement
