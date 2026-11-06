@@ -12,12 +12,12 @@ sections:
       led. It drew **330 students from across India** and brought in invited
       speakers from the field.
     photos:
-      - image: /assets/img/activities/xray-workshop.png
-        caption: X-ray astronomy data-analysis workshop
-      - image: /assets/img/activities/naxatra-telescope.png
+      - image: /assets/img/activities/naxatra-telescope.jpg
         caption: Telescope demonstration on campus
-      - image: /assets/img/activities/naxatra-talk.png
-        caption: A Naxatra talk
+      - image: /assets/img/activities/naxatra-intro.jpg
+        caption: Introducing Naxatra to new students
+      - image: /assets/img/activities/naxatra-talk.jpg
+        caption: A Naxatra talk on gravitational waves
   - title: Lovelace Society · Tech Society
     role: Co-coordinator
     dates: January 2024 – June 2025
@@ -60,7 +60,7 @@ sections:
         caption: The Invenio science fest
   - title: Beyond physics
     text: I play lawn tennis and represented IISER Berhampur at the Inter-IISER
-      Sports Meet (December 2024). I also enjoy basketball, trekking, painting,
+      Sports Meet (December 2023, 2024, 2025). I also enjoy basketball, trekking, painting,
       reading and writing.
     photos:
       - image: /assets/img/activities/tennis.jpg
