@@ -125,6 +125,9 @@ cv:
       - name: Computational
         icon: fa-solid fa-code
         keywords: "Python, Mathematica, Jupyter, SQL, Linux, LaTeX, HTML, MATLAB, HPC clusters (batch jobs)"
+      - name: Methods
+        icon: fa-solid fa-chart-line
+        keywords: "Bayesian inference, signal processing, Markov chain Monte Carlo methods, nested sampling methods, Fisher matrix approximations"
       - name: Packages
         icon: fa-solid fa-wave-square
         keywords: "pandas, NumPy, Matplotlib, SciPy, fitsio, pyccl, Astropy, PyCBC, Bilby, pyCWB, LALSuite"
