@@ -11,6 +11,7 @@ on:
       - "**.html"
       - "**.js"
       - "**.liquid"
+      - "**.rb"
       - "**/*.md"
       - "**.yml"
       - "Gemfile"
@@ -38,6 +39,7 @@ on:
       - "**.html"
       - "**.js"
       - "**.liquid"
+      - "**.rb"
       - "**/*.md"
       - "**.yml"
       - "Gemfile"
@@ -59,6 +61,12 @@ on:
 
 permissions:
   contents: write
+
+# One deploy at a time, newest last: without this a slow older build can finish after a newer
+# one and overwrite gh-pages with stale content (happened on 2026-11-06).
+concurrency:
+  group: deploy-site
+  cancel-in-progress: false
 
 jobs:
   deploy:
