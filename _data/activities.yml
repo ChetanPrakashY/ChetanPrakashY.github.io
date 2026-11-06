@@ -63,10 +63,10 @@ sections:
       Sports Meet (December 2024). I also enjoy basketball, trekking, painting,
       reading and writing.
     photos:
-      - image: /assets/img/activities/tennis.png
-        caption: Inter-IISER Sports Meet
-      - image: /assets/img/activities/tedx.png
-        caption: TEDxIISERBPR
+      - image: /assets/img/activities/tennis.jpg
+        caption: On the tennis court
+      - image: /assets/img/activities/trekking.jpg
+        caption: Trekking
 recognition:
   - date: Apr 2026
     title: Gravitational Wave Open Data Workshop 2026, Certificate of Achievement (GWOSC)
