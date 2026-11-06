@@ -52,12 +52,12 @@ sections:
       college life and into a field of interest.
 
     photos:
-      - image: /assets/img/activities/stream-outreach.png
-        caption: STREAM outreach with school students
-      - image: /assets/img/activities/episteme.png
-        caption: The Episteme magazine
-      - image: /assets/img/activities/invenio.png
-        caption: The Invenio science fest
+      - image: /assets/img/activities/outreach-gw-talk.jpg
+        caption: Talk on gravitational waves
+      - image: /assets/img/activities/outreach-mentoring.jpg
+        caption: Mentoring program
+      - image: /assets/img/activities/outreach-gyroscope.jpg
+        caption: Explaining a gyroscope to school kids
   - title: Beyond physics
     text: I play lawn tennis and represented IISER Berhampur at the Inter-IISER
       Sports Meet (December 2023, 2024, 2025). I also enjoy basketball, trekking, painting,
