@@ -6,8 +6,7 @@ img: /assets/img/projects/gw-lensing.png
 importance: 2
 category: earlier
 permalink: /projects/gw-lensing/
-info: IUCAA, Pune · with Dr. Anupreeta More
-status: Completed
+info: IUCAA, Pune · with Dr. Anupreeta More · May – August 2024
 ---
 
 ## The question
