@@ -182,6 +182,7 @@ content:
                 type: image
                 options: { media: images, path: assets/img/activities }
               - { name: caption, label: Caption, type: string }
+              - { name: no_zoom, label: "Don't allow enlarging (e.g. group photos)", type: boolean }
       - name: recognition
         label: Recognition & certificates
         type: object
