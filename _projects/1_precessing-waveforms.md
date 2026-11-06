@@ -43,9 +43,7 @@ When the black holes' spins are tilted relative to the orbit, the orbital plane 
 
 Python · LALSuite / LALSimulation · Bilby · PyCBC · NumPy / SciPy · SNR-weighted mismatch · Fisher Matrix · Bayesian Inference 
 
-## Reading list
-
-Papers I've been reading for this project.
+## References
 
 **Precessing waveform models**
 

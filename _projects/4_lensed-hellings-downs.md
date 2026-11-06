@@ -40,7 +40,7 @@ At nanohertz frequencies the gravitational wavelength is comparable to the Schwa
 
 Python · mpmath · SciPy · h5py · point-mass and isothermal-sphere lens models · wave-optics amplification factor · Hellings–Downs correlation
 
-## Background reading
+## References
 
 - Takahashi & Nakamura (2003), *Wave Effects in Gravitational Lensing of Gravitational Waves from Chirping Binaries*
 - Nakamura & Deguchi (1999), *Wave Optics in Gravitational Lensing*

@@ -57,7 +57,7 @@ JWST pipeline · exoTEDRF · Eureka! · POSEIDON · MultiNest · astroquery / MA
 Python (NumPy, Astropy, Matplotlib) · transit light-curve fitting · Bayesian
 free retrieval (nested sampling) 
 
-## Reading list
+## References
 
 **WASP-107b**
 
