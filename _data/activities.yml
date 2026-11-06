@@ -13,11 +13,11 @@ sections:
       speakers from the field.
     photos:
       - image: /assets/img/activities/naxatra-telescope.jpg
-        caption: Telescope demonstration on campus
+        caption: Demonstrating a telescope
       - image: /assets/img/activities/naxatra-intro.jpg
-        caption: Introducing Naxatra to new students
+        caption: Club outreach
       - image: /assets/img/activities/naxatra-talk.jpg
-        caption: A Naxatra talk on gravitational waves
+        caption: A Naxatra talk
   - title: Lovelace Society · Tech Society
     role: Co-coordinator
     dates: January 2024 – June 2025
@@ -25,10 +25,10 @@ sections:
       across the sciences. I helped run hackathons and weekly programming
       workshops for students across disciplines.
     photos:
-      - image: /assets/img/activities/lovelace-hackathon.png
-        caption: A Lovelace Society hackathon
-      - image: /assets/img/activities/lovelace-workshop.png
-        caption: One of the weekly workshops
+      - image: /assets/img/activities/lovelace-robots.jpg
+        caption: Arduino robots, an obstacle avoider and a line follower
+      - image: /assets/img/activities/lovelace-logo.jpg
+        caption: The Lovelace Society
   - title: Science communication & outreach
     text: >+
       - **STREAM outreach programme.** I taught school students the basics of
